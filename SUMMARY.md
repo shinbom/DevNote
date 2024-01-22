@@ -3,7 +3,7 @@
 ## Computer Science
 
 - [운영체제](operation_system/)
-  - [개발환경](operation_system/page-1.md)
+  - [운영체제와 컴퓨터](operation_system/page-1.md)
 
 
 ## Component

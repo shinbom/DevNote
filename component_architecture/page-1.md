@@ -10,11 +10,11 @@
 
 관심사가 분리된 재사용성이 높고 유지보수하기 용이한 컴포넌트 만들기
 
-![](.\src\same_input.png)
+![](./src/same_input.png)
 
-![](.\src\component_01.png)
+![](./src/component_01.png)
 
-![](.\src\component_02.png)
+![](./src/component_02.png)
 
 변경할때마다 새로운 컴포넌트를 만들어야 하나?
 
@@ -24,19 +24,19 @@ props를 이용해서 분기 처리를 해야 하나?
 
 ## Headless하게 만들기
 
-![](.\src\headless.png)
+![](./src/headless.png)
 
-![](.\src\headless_example.png)
+![](./src/headless_example.png)
 
 > Headless > UI를 없앤 상태에서, Data만 생각하기
 
 Compound Component 패턴
 
-1. ![](.\src\compound_component_01.png)
+1. ![](./src/compound_component_01.png)
 
 2. Funtion as Childre Component 패턴
 
-   ![](.\src\function_as_child_01.png)
+   ![](./src/function_as_child_01.png)
 
 3. Custom Hook
 
@@ -46,7 +46,7 @@ Compound Component 패턴
 
 > 실무에서 클린 코드의 의의 = 유지보수 시간의 단축
 
-![](.\src\frontend_cleancode_01.jpg)
+![](./src/frontend_cleancode_01.jpg)
 
 - 하나의 목적인 코드가 흩뿌려져 있음.
 
@@ -62,11 +62,11 @@ Compound Component 패턴
 
    > 같은 목적을 가진 코드는 뭉쳐두자  > **응집도**
 
-   ![](.\src\선언적_프로그래밍.jpg)
+   ![](./src/선언적_프로그래밍.jpg)
 
-   ![](.\src\선언적_프로그래밍02.jpg)
+   ![](./src/선언적_프로그래밍02.jpg)
 
-   ![](.\src\명령형_프로그래밍.jpg)
+   ![](./src/명령형_프로그래밍.jpg)
 
    > 두방법 모두 유동적으로 사용하면 된다.
 
@@ -86,13 +86,13 @@ Compound Component 패턴
 
    > 핵심 개념을 뽑아내자
 
-   ![추상화.jpg](.\src\추상화.jpg)
+   ![추상화.jpg](./src/추상화.jpg)
 
-![](.\src\추상화_예시_01.jpg)
+![](./src/추상화_예시_01.jpg)
 
-![](.\src\추상화_예시_02.jpg)
+![](./src/추상화_예시_02.jpg)
 
-![](.\src\추상화_예시_03.jpg)
+![](./src/추상화_예시_03.jpg)
 
 ---
 

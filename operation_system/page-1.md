@@ -18,7 +18,7 @@
 
 ### 구조
 
-![운영체제의 구조](.\src\structure.png)
+![운영체제의 구조](./src/structure.png)
 
 #### 커널(Kernel)
 
@@ -66,9 +66,9 @@
 
 `사용자 모드 > 커널 모드`
 
-![System Call](.\src\system_call.png)
+![System Call](./src/system_call.png)
 
-![](.\src\modebit.png)
+![modebit](./src/modebit.png)
 
 #### modebit
 
@@ -108,7 +108,7 @@ CPU는 자체적으로 데이터를 저장할 방법이 없기 때문에 레지�
 
 덧셈, 뺼셈과 같은 산술연산과 논리합, 논리곱 같은 논리 연산을 계산하는 데이터 회로
 
-![](.\src\cpu_arithmetric.png)
+![cpu_arithmetric](./src/cpu_arithmetric.png.png)
 
 ---
 
