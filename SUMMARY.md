@@ -5,12 +5,11 @@
 - [운영체제](operation_system/)
   - [운영체제와 컴퓨터](operation_system/page-1.md)
   - [메모리](operation_system/page-2.md)
-
+  - [캐시 메모리](operation_system/page-3.md)
 
 ## Component
 
 - [컴포넌트 설계하기](component_architecture/page-1.md)
-
 
 ## FrontEnd Security
 
