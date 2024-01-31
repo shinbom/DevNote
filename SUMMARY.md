@@ -6,6 +6,7 @@
   - [운영체제와 컴퓨터](operation_system/page-1.md)
   - [메모리](operation_system/page-2.md)
   - [캐시 메모리](operation_system/page-3.md)
+  - [가상 메모리](operation_system/page-4.md)
 
 ## Component
 
