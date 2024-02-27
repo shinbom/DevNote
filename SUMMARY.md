@@ -36,8 +36,12 @@
 
 - [클린코드](clean_code/page-0.md)
 - [깨끗한 코드](clean_code/page-1.md)
+- [의미 있는 이름](clean_code/page-2.md)
+- [함수](clean_code/page-3.md)
+
+
 
 ## TestCode
 
 - [좋은 소프트웨어 만들기](js_test/page-1.md)
-- [ 도구 다루기](js_test/page-2.md)
+- [도구 다루기](js_test/page-2.md)
