@@ -49,3 +49,5 @@
 ## NestJs
 
 - [프로젝트 셋업](NestJs/page-1.md)
+- [Nest CLI 프로젝트 생성하기](NestJs/page-2.md)
+- [파이프로 요청 데이터 검증하기](NestJs/page-3.md)
