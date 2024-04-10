@@ -51,3 +51,13 @@
 - [프로젝트 셋업](NestJs/page-1.md)
 - [Nest CLI 프로젝트 생성하기](NestJs/page-2.md)
 - [파이프로 요청 데이터 검증하기](NestJs/page-3.md)
+- [서비스와 레파지토리](NestJs/page-4.md)
+- [제어 역전](NestJs/page-5.md)
+- [모듈로 코드 정리하기](NestJs/page-6.md)
+- [API 설계, TypeORM, 데이터베이스](NestJs/page-7.md)
+- [Type Orm](NestJs/page-8.md)
+- [리포지토리](NestJs/page-9.md)
+- [데이터의 생성 및 저장](NestJs/page-10.md)
+- [데이터 쿼리(데이터 조회, 수정, 삭제 등)](NestJs/page-11.md)
+- [Error](NestJs/page-12.md)
+

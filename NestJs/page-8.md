@@ -1,4 +1,4 @@
-# TypeOrm
+# Type Orm
 
 ```typescript
 //app.module.ts
