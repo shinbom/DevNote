@@ -60,4 +60,10 @@
 - [데이터의 생성 및 저장](NestJs/page-10.md)
 - [데이터 쿼리(데이터 조회, 수정, 삭제 등)](NestJs/page-11.md)
 - [Error](NestJs/page-12.md)
+- [응답 속성 제외](NestJs/page-13.md)
+- [인터셉터](NestJs/page-14.md)
+- [# 커스텀 데코레이터](NestJs/page-15.md)
+  
+  ---
+
 
