@@ -38,8 +38,7 @@
 - [깨끗한 코드](clean_code/page-1.md)
 - [의미 있는 이름](clean_code/page-2.md)
 - [함수](clean_code/page-3.md)
-
-
+- [주석](clean_code/page-4.md)
 
 ## TestCode
 
