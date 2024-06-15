@@ -61,8 +61,7 @@
 - [Error](NestJs/page-12.md)
 - [응답 속성 제외](NestJs/page-13.md)
 - [인터셉터](NestJs/page-14.md)
-- [# 커스텀 데코레이터](NestJs/page-15.md)
-  
+- [커스텀 데코레이터](NestJs/page-15.md)
+- [인증](NestJs/page-16.md)
   ---
-
 
