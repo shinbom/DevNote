@@ -59,6 +59,12 @@
 - [인터셉터](NestJs/page-14.md)
 - [커스텀 데코레이터](NestJs/page-15.md)
 - [인증](NestJs/page-16.md)
+- [Session](NestJs/page-17.md)
+- [로그아웃](NestJs/page-18.md)
+- [커스텀 데코레이터 & 인터셉터](NestJs/page-19.md)
+- [인증 가드](NestJs/page-20.md)
+
+
 
 
 ## React 
