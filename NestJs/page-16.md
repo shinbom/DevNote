@@ -29,6 +29,9 @@
 
 > 방어 방법으로 솔트(Salt) 가 있다.
 
+---
+## 솔트
+
 `사용자가 입력한 암호와 솔트를 함쳐 문자열을 해쉬처리한다.`
 
 ![](./src/salt_hash.png)
@@ -59,7 +62,7 @@ export class AuthService {
     */
 
     const users = await this.usersService.find(email)
-    if(users) {
+    if(users.length) {
       throw new BadRequestException('이메일이 이미 존재합니다.')
     }
 
@@ -72,9 +75,32 @@ export class AuthService {
     const result = salt + '.' + hash.toString('hex')
   }
 
-  signin() {
+  async signin(email : string, password : string) {
+    const [user] = await this.usersService.find(email);
+    if(!user) {
+      throw new NotFoundException('사용자가 없습니다.')
+    }
 
+    const [salt, storeHash] = user.password.split('.');
+
+    const hash = (await scrypt(password, salt, 32)) as Buffer
+
+    if(storeHash !== hash.toString('hex')){
+      throw new BadRequestException('비밀번호가 맞지 않습니다.')
+    }
+
+    return user;
   }
 }
 ```
 
+```typescript
+// UserController
+  @Post('/signin')
+
+  signin(@Body() body : CreateUserDto) {
+    return this.authService.signin(body.email, body.password)
+  }
+
+```
+email, password를 똑같이 처리하기 때문에 DTO는 `CreateUserDto`를 사용

@@ -14,10 +14,6 @@
     - [스레드](operation_system/page-7.md)
     - [CPU스케쥴링 알고리즘](operation_system/page-8.md)
 
-## Component
-
-- [컴포넌트 설계하기](component_architecture/page-1.md)
-
 ## FrontEnd Security
 
 - [웹 보안](frontend_security/page-1.md)
@@ -63,5 +59,14 @@
 - [인터셉터](NestJs/page-14.md)
 - [커스텀 데코레이터](NestJs/page-15.md)
 - [인증](NestJs/page-16.md)
-  ---
 
+
+## React 
+
+- [전역 상태 관리](React_NextJs/React/global_store_state/전역상태관리.md)
+- [컴포넌트 설계하기](component_architecture/컴포넌트_설계.md)
+
+## NextJs
+
+- [Client Component](React_NextJs/NextJs/ClientComponent.md)
+- [Server Component](React_NextJs/NextJs/ServerComponent.md)
