@@ -26,7 +26,7 @@ React Server Components는 다음과 같은 기준에 따라 chunk로 분할됨.
 
 1. HTML을 가져와서 HTML을 즉시 보여줌. : Preview (Preivew of the routes)
 
-![](./src/serverComponent_network.png)
+![](../src/serverComponent_network.png)
 
 - localhost의 preview를 보면 `Component 0`이라고 되어있다.
 
