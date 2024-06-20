@@ -60,3 +60,17 @@ npm start
 
 - 구글 플레이스토어에서 `Expo Go`를 검색하여 실행
 - QR코드 스캔
+
+### 로컬머신 시뮬레이터 설치
+
+- Android : Android Studio 설치
+  - 설치 후, More Actions > Virtual Device Manager
+
+- iOS : App Store > xcode 설치
+  - Setting > Location > Command Line Tools 버전 선택 > 
+
+```bash
+npm start 
+```
+
+Android or iOS 구동환경 실행 가능
