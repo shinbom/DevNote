@@ -7,13 +7,14 @@ import { Button, StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function HomeScreen() {
   const [enteredGoalText, setEnteredGoalText] = useState('')
+  const [courseGoals, setCourseGoals] = useState<string[]>([]);
 
   function goalInputHandler(enteredText : string) {
     setEnteredGoalText(enteredText)
   }
 
   function addGoalHandler() {
-    console.log('enteredGoalText', enteredGoalText)
+    setCourseGoals(currentCouseGoals => [...currentCouseGoals, enteredGoalText])
   }
 
   return (
@@ -27,7 +28,7 @@ export default function HomeScreen() {
         <Button title="Add Goal" onPress={addGoalHandler}/>
       </View>
       <View style={styles.goalsContainer}>
-        <Text>List Of Goal</Text>
+        {courseGoals.map((goal : string, goalIndex : number) => <Text key={`goal_${goalIndex}`}>{goal}</Text>)}
       </View>
     </View>
   );
@@ -65,3 +66,7 @@ const styles = StyleSheet.create({
 React Native에는 onClick이벤트가 없고, 대신 `onPress`가 있다.
 
 그리고 onChange시, 기본적으로 전달되는 매개변수로 `enteredText`가 있다.
+
+---
+
+리스트를 렌더링 하는 것은, React와 동일하다.
