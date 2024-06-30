@@ -28,3 +28,9 @@ return (
 > iOS에서 스크롤이 튀어오르는 alwaysBouceVertical과 같은 속성도 제어할 수 있다.
 
 [ReactNative - ScrollView](https://reactnative.dev/docs/scrollview)
+
+---
+
+`ScrollView`는 모든 자식 항목을 렌더링한다.
+
+자식요소가 수만개일 경우 성능에 문제가 될 수 있다.
