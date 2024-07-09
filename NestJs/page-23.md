@@ -1,4 +1,4 @@
-# 로그인 테스트
+# 로그인 테스트(서비스 테스트)
 
 ```typescript
   ...
@@ -142,3 +142,28 @@ console.log(user)
 ```
 
 실제로 동작하도록 함으로서, 테스트 코드가 더 간결해졌다.
+
+#### 지능적인 모의 구현
+
+```typescript
+  // AS_IS
+  it('회원가입시 이메일 오류가 발생한다.', async () => {
+    fakeUsersService.find = () =>
+      Promise.resolve([{ id: 1, email: 'a', password: '1' } as User]);
+    await expect(service.signup('asdf@asdf.com', 'asdf')).rejects.toThrow(
+      BadRequestException,
+    );
+  })
+
+  // TO_BE
+  it('회원가입시 이메일 오류가 발생한다.', async () => {
+    await service.signup('asdf@asdf.com', 'asdf')
+    await expect(service.signup('asdf@asdf.com', 'asdf')).rejects.toThrow(
+      BadRequestException,
+    );
+  })
+```
+
+실제 로직을 이용하여, 더 지능적으로 모의 구현을 할 수 있다.
+
+> 컨트롤러 단위 테스트부터 E2E는 Nest를 좀 더 익숙해진 후에 다시 학습하는게 좋아보인다.
