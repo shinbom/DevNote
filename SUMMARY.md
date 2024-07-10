@@ -77,6 +77,9 @@
 - [테스트 방법과 테스트 전략](frontend_test/page-1.md)
 - [테스트 코드](frontend_test/page-2.md)
 - [비동기 처리 테스트](frontend_test/page-3.md)
+- [목 객체](frontend_test/page-4.md)
+- [웹 API 목 객체](frontend_test/page-5.md)
+
 
 ## NextJs
 
