@@ -79,7 +79,9 @@
 - [비동기 처리 테스트](frontend_test/page-3.md)
 - [목 객체](frontend_test/page-4.md)
 - [웹 API 목 객체](frontend_test/page-5.md)
-
+- [목 함수를 사용하는 스파이](frontend_test/page-6.md)
+- [테스트 실행하기 전, 후 공통 설정](frontend_test/page-7.md)
+- [UI테스트](frontend_test/page-8.md)
 
 ## NextJs
 

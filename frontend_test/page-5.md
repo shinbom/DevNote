@@ -49,6 +49,10 @@ jest.spyOn(Fetchers, 'getMyProfile')
 
 ## 데이터 취득 성공을 재현한 테스트
 
+> spyOn : 함수의 구현을 가짜로 대체하지 않고, 함수의 호출여부와 어떻게 호출되었는지만 알아내야 할 때 사용
+
+
+
 ```typescript
 test('데이터 조회 성공, name이 없을 때', async () => {
   jest.spyOn(Fetchers, 'getMyProfile').mockResovedValueOnce({
