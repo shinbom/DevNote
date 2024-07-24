@@ -44,3 +44,46 @@ test('버튼 클릭 시 이벤트 핸들러 실행', () => {
   expect(mockFn).toHaveBeenCalled()
 })
 ```
+
+---
+
+## 매처
+
+```typescript
+test('목록의 갯수를 표시', () => {
+   render(<List items={items}/>)
+   expect(screen.getAllByRole('listitem')).toHaveLength(3)
+})
+
+
+test('item 목록 갯수', () => {
+  render(<List items={items}/>)
+  const list = screen.getByRole('list')
+  expect(list).toBeInTheDocument()
+  expect(within(list).getAllByRole('listitem')).toHaveLength(3)
+})
+
+test('item이 없을 때', () => {
+  render(<List items={items}/>)
+  const list = screen.getByRole('list')
+
+  expect(list).not.toBeInTheDocument()
+  expect(list).toBeNull()
+})
+
+test('링크의 주소를 확인', () => {
+  render(<LinkItem {...item}/>)
+  expect(screen.getByRole('link', {name : '신봄'}).toHaveAttribute(
+    'href',
+    '/shinbom'
+  ))
+})
+```
+
+> `toHaveLength` : 배열 길이를 검증하는 매처<br/>
+> `within` : 특정 요소의 하위 요소를 검색할 때 사용됨.<br/>
+> `not` : 반대를 나타냄.<br/>
+> `toBeNull` : null을 검증하는 매처<br/>
+> `toHaveAttribute` : 속성을 검증하는 매처
+
+이 외에 매처들은 따로 정리하지 않고, 사용할 때마다 찾으면서 테스트 코드를 짜야겠다.
