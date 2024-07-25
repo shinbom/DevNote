@@ -83,6 +83,8 @@
 - [테스트 실행하기 전, 후 공통 설정](frontend_test/page-7.md)
 - [UI테스트](frontend_test/page-8.md)
 - [컴포넌트 스냅숏 테스트](frontend_test/page-9.md)
+- [NextJs 통합 테스트 - React Context](frontend_test/page-10.md)
+- [NextJs 통합 테스트 - Next Router](frontend_test/page-11.md)
 
 ## NextJs
 
