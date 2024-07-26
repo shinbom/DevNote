@@ -26,3 +26,5 @@ test.each([
   expect(link).toHaveAttribute("aria-current", "page");
 });
 ```
+
+aria-current를 이용하여, 현재 페이지 이동이 된것을 검증한다.
