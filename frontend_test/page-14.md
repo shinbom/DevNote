@@ -63,3 +63,78 @@ export const NotLogginedIn: Story = {
   },
 };
 ```
+
+## Next.js Router에 의존하는 스토리 등록
+
+```bash
+npm install storytbook-addon-next-router --save-dev
+```
+
+```javascript
+// .storybook/main.js
+module.exports = {
+  ...
+  stories : ['../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  addons : ['storybook-addon-next-router]
+}
+```
+
+```javascript
+// .storybook/preview.js
+import { RouterContext } from 'next/dist/shared/lib/router-context'
+
+export const parameters = {
+  ...,
+  nextRouter : {
+    Provider : RouterContext.Provider
+  }
+}
+```
+
+```tsx
+// Router 등록
+export const Route: Story = {
+  parameteres: {
+    nextRouter: { pathname: "/posts/" },
+  },
+};
+```
+
+## Play 함수를 이용한 인터랙션 테스트
+
+```bash
+npm install @storybook/testing-library @storybook/jest @storybook/addon-interactions --save-dev
+```
+
+```javascript
+// .storybook/main.js
+
+module.exports = {
+  stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  addons: ["@storybooks/addon-interactions"],
+  features: {
+    interactionsDebugger: true,
+  },
+};
+```
+
+### 인터랙션 할당
+
+```tsx
+export const SucceedSaveAsDraft : Story = {
+  play : async ({ canvasElement } => {
+    const canvas = within(canvasElement);
+    await user.type(
+      canvas.getByRole('textbox', { name : '제목' }),
+      '나의 기사'
+    )
+  })
+
+  // Play Function 테스트 코드
+  await user.click(canvas.getByRole('switch', { name : '공개 여부' }))
+  await expect(
+    canvas.getByRole('button', { name : '공개하기' })
+  ).toBeInTheDocument();
+}
+
+```

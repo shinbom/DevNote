@@ -85,6 +85,10 @@
 - [컴포넌트 스냅숏 테스트](frontend_test/page-9.md)
 - [NextJs 통합 테스트 - React Context](frontend_test/page-10.md)
 - [NextJs 통합 테스트 - Next Router](frontend_test/page-11.md)
+- [입력 테스트](frontend_test/page-12.md)
+- [MSW](frontend_test/page-13.md)
+- [스토리북 테스트](frontend_test/page-14.md)
+- [시각적 회귀 테스트와 E2E 테스트](frontend_test/page-15.md)
 
 ## NextJs
 
