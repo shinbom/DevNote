@@ -1,4 +1,4 @@
-# NestJs 회원가입 관련 학습내용 정리
+# NestJs 회원가입 관련 개인 학습내용 정리
 
 [인증 - NestJs 학습내용](../NestJs/page-16.md)
 

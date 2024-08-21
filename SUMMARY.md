@@ -67,6 +67,10 @@
 - [테스트 코드 리팩토링](NestJs/page-22.md)
 - [로그인 테스트](NestJs/page-23.md)
 
+## NestJs 개인 학습
+
+- [NestJs 회원가입 관련 개인 학습내용](NestJsPractice/page-1.md)
+
 ## React
 
 - [전역 상태 관리](React_NextJs/React/global_store_state/전역상태관리.md)
