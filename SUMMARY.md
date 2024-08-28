@@ -14,6 +14,49 @@
     - [스레드](operation_system/page-7.md)
     - [CPU스케쥴링 알고리즘](operation_system/page-8.md)
 
+## Algorithm
+
+- [버블정렬](algorithm/bubbleSort.md)
+- [선택정렬](algorithm/selectionSort.md)
+- [삽입정렬](algorithm/insertSort.md)
+- [삽입정렬이 버블정렬과 선택정렬보다 빠른 이유](/algorithm/sort.md)
+
+## React
+
+- [전역 상태 관리](React_NextJs/React/global_store_state/전역상태관리.md)
+- [컴포넌트 설계하기](React_NextJs/React/component_architecture/컴포넌트_설계.md`)
+
+## Typescript
+
+- [타입스크립트](typescript/page-1.md)
+- [타입스크립트 컴파일러 옵션](typescript/page-2.md)
+- [타입스크립트의 기본 타입](typescript/page-3.md)
+- [배열과 튜플 타입](typescript/page-4.md)
+- [객체 타입](typescript/page-5.md)
+
+## Frontend Test
+
+- [테스트 방법과 테스트 전략](frontend_test/page-1.md)
+- [테스트 코드](frontend_test/page-2.md)
+- [비동기 처리 테스트](frontend_test/page-3.md)
+- [목 객체](frontend_test/page-4.md)
+- [웹 API 목 객체](frontend_test/page-5.md)
+- [목 함수를 사용하는 스파이](frontend_test/page-6.md)
+- [테스트 실행하기 전, 후 공통 설정](frontend_test/page-7.md)
+- [UI테스트](frontend_test/page-8.md)
+- [컴포넌트 스냅숏 테스트](frontend_test/page-9.md)
+- [NextJs 통합 테스트 - React Context](frontend_test/page-10.md)
+- [NextJs 통합 테스트 - Next Router](frontend_test/page-11.md)
+- [입력 테스트](frontend_test/page-12.md)
+- [MSW](frontend_test/page-13.md)
+- [스토리북 테스트](frontend_test/page-14.md)
+- [시각적 회귀 테스트와 E2E 테스트](frontend_test/page-15.md)
+
+## NextJs
+
+- [Client Component](React_NextJs/NextJs/ClientComponent.md)
+- [Server Component](React_NextJs/NextJs/ServerComponent.md)
+
 ## FrontEnd Security
 
 - [웹 보안](frontend_security/page-1.md)
@@ -70,31 +113,3 @@
 ## NestJs 개인 학습
 
 - [NestJs 회원가입 관련 개인 학습내용](NestJsPractice/page-1.md)
-
-## React
-
-- [전역 상태 관리](React_NextJs/React/global_store_state/전역상태관리.md)
-- [컴포넌트 설계하기](React_NextJs/React/component_architecture/컴포넌트_설계.md`)
-
-## Frontend Test
-
-- [테스트 방법과 테스트 전략](frontend_test/page-1.md)
-- [테스트 코드](frontend_test/page-2.md)
-- [비동기 처리 테스트](frontend_test/page-3.md)
-- [목 객체](frontend_test/page-4.md)
-- [웹 API 목 객체](frontend_test/page-5.md)
-- [목 함수를 사용하는 스파이](frontend_test/page-6.md)
-- [테스트 실행하기 전, 후 공통 설정](frontend_test/page-7.md)
-- [UI테스트](frontend_test/page-8.md)
-- [컴포넌트 스냅숏 테스트](frontend_test/page-9.md)
-- [NextJs 통합 테스트 - React Context](frontend_test/page-10.md)
-- [NextJs 통합 테스트 - Next Router](frontend_test/page-11.md)
-- [입력 테스트](frontend_test/page-12.md)
-- [MSW](frontend_test/page-13.md)
-- [스토리북 테스트](frontend_test/page-14.md)
-- [시각적 회귀 테스트와 E2E 테스트](frontend_test/page-15.md)
-
-## NextJs
-
-- [Client Component](React_NextJs/NextJs/ClientComponent.md)
-- [Server Component](React_NextJs/NextJs/ServerComponent.md)
