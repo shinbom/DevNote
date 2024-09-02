@@ -18,7 +18,7 @@ JavaScript는 실행 속도를 높이기 위해 `JIT(Just-In-Time) 컴파일`을
 
 ## V8 엔진의 동작방식
 
-![](./src/v8_engine_process.avif)
+![](./src/v8_engine_process.jpg)
 
 
 ## 참고
