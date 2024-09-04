@@ -1,5 +1,7 @@
 # 버블정렬(Bubble Sort)
 
+![bubbleSort](./src/bubbleSort.gif)
+
 ```javascript
 function bubbleSort(list) {
   // 정렬되지 않은 부분의 끝 인덱스를 저장

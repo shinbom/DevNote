@@ -1,5 +1,7 @@
 # 선택정렬(Selection Sort)
 
+![selectionSort](./src/selectionSort.gif)
+
 ```javascript
 // 한 셀씩 이동하면서 현재까지 가장 작은 값을 기록(인덱스를 변수에 저장)
 // 변수에 들어 있는 값보다 작은 값이 들어있는 셀을 만나면 변수가 새 인덱스를 가르키도록 변수를 대체한다.

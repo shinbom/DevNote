@@ -1,5 +1,7 @@
 # 삽입정렬(Insert Sort)
 
+![insertSort](./src/insertSort.gif)
+
 ```javascript
 function insertionSort(arr) {
   // 배열의 두 번째 요소부터 시작
