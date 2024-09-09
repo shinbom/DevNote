@@ -1,7 +1,5 @@
 # Blocking과 Non-Blocking
 
-## Blocking
-
 Node.js 프로세스에서 JavaScript를 실행할 때 JavaScript가 아닌 작업이 완료될 때까지 기다려하는 경우이다.
 
 이벤트 루프가 Blocking작업이 발생하는 동안 JavaScript를 계속 실행할 수 없기 때문에 발생한다.
@@ -32,6 +30,7 @@ fs.readFile('/file.md', (err, data) => {
 moreWork(); 
 
 ```
+
 
 #### 참고
 
