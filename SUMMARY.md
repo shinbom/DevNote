@@ -27,6 +27,12 @@
 - [큐](dataStructure/queue.md)
 - [해시 테이블](dataStructure/hashTable.md)
 
+## Algorithm Program Solve
+
+- [문제 해결법 소개](./algorithm/problem_solve/page-1.md)
+- [문제의 이해](./algorithm/problem_solve/page-2.md)
+- [문제 해결 패턴](./algorithm/problem_solve/page-3.md)
+
 ## Javascript
 
 - [변수](javascript/변수.md)
@@ -49,6 +55,14 @@
 - [타입스크립트의 기본 타입](typescript/page-3.md)
 - [배열과 튜플 타입](typescript/page-4.md)
 - [객체 타입](typescript/page-5.md)
+- [타입 별칭과 인덱스 시그니처](typescript/page-6.md)
+- [열거형 타입(Enumerable Type : Enum Type)](typescript/page-7.md)
+- [any, unknown](typescript/page-8.md)
+- [Void타입과 Never타입](typescript/page-9.md)
+- [타입스크립트 이해하기](typescript/page-10.md)
+- [타입계층도](typescript/page-11.md)
+- [객체타입간의 호환성](typescript/page-12.md)
+- [대수 타입](typescript/page-13.md)
 
 ## React
 
