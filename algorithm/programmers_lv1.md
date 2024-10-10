@@ -1,32 +1,46 @@
 # 문제 풀이
 
-## 콜라츠 수열
+## 나머지가 1이 되는 수 찾기
 
-> 모든 자연수 x에 대해서 현재 값이 x이면 x가 짝수일 때는 2로 나누고, x가 홀수일 때는 3 * x + 1로 바꾸는 계산을 계속해서 반복하면 언젠가는 반드시 x가 1이 되는지 묻는 문제를 콜라츠 문제라고 부릅니다.
-<br/>그리고 위 과정에서 거쳐간 모든 수를 기록한 수열을 콜라츠 수열이라고 부릅니다.
-<br/>계산 결과 1,000 보다 작거나 같은 수에 대해서는 전부 언젠가 1에 도달한다는 것이 알려져 있습니다.
-<br/>임의의 1,000 보다 작거나 같은 양의 정수 n이 주어질 때 초기값이 n인 콜라츠 수열을 return 하는 solution 함수를 완성해 주세요.
+> 자연수 n이 매개변수로 주어집니다. n을 x로 나눈 나머지가 1이 되도록 하는 가장 작은 자연수 x를 return 하도록 solution 함수를 완성해주세요. 답이 항상 존재함은 증명될 수 있습니다.
+
+|n|result|
+|-|---|
+|10|3|
 
 ```javascript
 // 내 풀이
 function solution(n) {
-    let number = n
-    let answer = [number];
-    while(number > 1){
-        number % 2 > 0 ?  number = 3 * number + 1 : number = number / 2
-        answer.push(number)
+    let answer = []
+    for(let i = 0; i< n; i++){
+        if((n % i) === 1){
+            answer.push(i)
+        }
     }
-    return answer;
+
+    return answer[0]
 }
 ```
 
 ```javascript
 // 좋은 풀이
-// 재귀함수를 이용
-function solution(n, arr = []) {
-    arr.push(n)
-    if (n === 1) return arr
-    if (n % 2 === 0) return solution(n / 2, arr)
-    return solution(3 * n + 1, arr)
+function solution(n, x = 1) {
+  while (x++) {
+      if (n % x === 1) {
+          return x;
+      }
+  }
 }
 ```
+
+```javascript
+// 개선 풀이
+function solution(n) {
+    for(let i = 0; i< n; i++){
+        if((n % i) === 1){
+            return i
+        }
+    }
+}
+```
+배열을 사용하지 않고, 바로 return 하였다. 이렇게 하면 나머지가 1이 나오는 제일 작은 수일떄 바로 return하므로 더이상 반환되지 않는다.
