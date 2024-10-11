@@ -63,6 +63,10 @@
 - [타입계층도](typescript/page-11.md)
 - [객체타입간의 호환성](typescript/page-12.md)
 - [대수 타입](typescript/page-13.md)
+- [타입 추론](typescript/page-14.md)
+- [타입 단언](typescript/page-15.md)
+- [타입 좁히기](typescript/page-16.md)
+- [서로소 유니온 타입](typescript/page-17.md)
 
 ## React
 
