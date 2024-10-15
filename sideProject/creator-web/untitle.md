@@ -29,5 +29,4 @@ https://mantine.dev/guides/vitest/
 
 7. 테스트를 위한 테스트 컴포넌트 누락
 
-
 8. Unable to find an accessible element with the role "heading" and name "App Router"
