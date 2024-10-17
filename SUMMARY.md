@@ -67,6 +67,7 @@
 - [타입 단언](typescript/page-15.md)
 - [타입 좁히기](typescript/page-16.md)
 - [서로소 유니온 타입](typescript/page-17.md)
+- [함수 타입](typescript/page-18.md)
 
 ## React
 
