@@ -73,6 +73,7 @@
 
 - [전역 상태 관리](React_NextJs/React/global_store_state/전역상태관리.md)
 - [컴포넌트 설계하기](React_NextJs/React/component_architecture/컴포넌트_설계.md`)
+- [React Deep Dive](React_NextJs/React/deep_dive/SUMMARY.md)
 
 ## Frontend Test
 
