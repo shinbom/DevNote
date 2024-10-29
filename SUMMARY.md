@@ -73,7 +73,19 @@
 
 - [전역 상태 관리](React_NextJs/React/global_store_state/전역상태관리.md)
 - [컴포넌트 설계하기](React_NextJs/React/component_architecture/컴포넌트_설계.md`)
-- [React Deep Dive](React_NextJs/React/deep_dive/SUMMARY.md)
+
+### React Deep Dive
+
+- [JSX](React_NextJs/React//deep_dive/jsx.md)
+- [JSX Transpiler](React_NextJs/React//deep_dive/jsx_transpiler.md)
+- [Virtual DOM & React Fiber](React_NextJs/React//deep_dive/virtual_dom_&_react_fiber.md)
+- [Class Component](React_NextJs/React//deep_dive/class_component.md)
+
+## NextJs
+
+- [Client Component](React_NextJs/NextJs/ClientComponent.md)
+- [Server Component](React_NextJs/NextJs/ServerComponent.md)
+- [Link 컴포넌트를 사용하는 이유](React_NextJs/NextJs/Link.md)
 
 ## Frontend Test
 
@@ -92,12 +104,6 @@
 - [MSW](frontend_test/page-13.md)
 - [스토리북 테스트](frontend_test/page-14.md)
 - [시각적 회귀 테스트와 E2E 테스트](frontend_test/page-15.md)
-
-## NextJs
-
-- [Client Component](React_NextJs/NextJs/ClientComponent.md)
-- [Server Component](React_NextJs/NextJs/ServerComponent.md)
-- [Link 컴포넌트를 사용하는 이유](React_NextJs/NextJs/Link.md)
 
 ## FrontEnd Security
 
