@@ -27,6 +27,7 @@
   - **시각적 스타일 관련 속성**: visibility, text-decoration, box-shadow
 
 [CSS Trigger](https://csstriggers.com/)
+
 ![](./src/dom_tree.png)
 
 ## 가상 DOM의 탄생 배경
