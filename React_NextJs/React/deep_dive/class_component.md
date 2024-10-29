@@ -94,6 +94,7 @@ private constructor(props : SampleProps) {
 ## 리액트 생명주기(Life Cycle)
 
 ![](./src/react_lifecycle.jpeg)
+
 [React Life Cycle Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
 ### 생명주기 메서드 실행시점

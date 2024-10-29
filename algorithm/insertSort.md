@@ -25,6 +25,6 @@ const sampleList = [5, 3, 8, 4, 2];
 console.log(insertionSort(sampleList)); // 출력: [2, 3, 4, 5, 8]
 ```
 
-최선의 경우 (Best Case): O(N) — 배열이 이미 정렬된 경우, 각 요소는 한 번의 비교만 하면 되므로 효율적
-<br/>
-평균 및 최악의 경우 (Average and Worst Case): O(N²) — 역순으로 정렬된 경우, 매번 모든 요소를 비교하고 이동해야 하므로 성능이 떨어짐.
+- 최선의 경우 (Best Case): O(N) — 배열이 이미 정렬된 경우, 각 요소는 한 번의 비교만 하면 되므로 효율적
+<br/><br/>
+- 평균 및 최악의 경우 (Average and Worst Case): O(N²) — 역순으로 정렬된 경우, 매번 모든 요소를 비교하고 이동해야 하므로 성능이 떨어짐.

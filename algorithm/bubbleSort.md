@@ -38,5 +38,5 @@ const sampleList = [5, 3, 8, 4, 2];
 console.log(bubbleSort(sampleList)); // 출력: [2, 3, 4, 5, 8]
 ```
 
-최선의 경우 (Best Case): O(N) — 이미 정렬된 경우, 단 한 번의 패스만 필요 (sorted 플래그로 인해)<br/>
-평균 및 최악의 경우 (Average and Worst Case): O(N²) — 거의 모든 경우에 각 요소마다 반복적인 비교와 교환이 필요
+- 최선의 경우 (Best Case): O(N) — 이미 정렬된 경우, 단 한 번의 패스만 필요 (sorted 플래그로 인해)<br/><br/>
+- 평균 및 최악의 경우 (Average and Worst Case): O(N²) — 거의 모든 경우에 각 요소마다 반복적인 비교와 교환이 필요

@@ -34,4 +34,5 @@ const numbers = [64, 25, 12, 22, 11];
 console.log(selectionSort(numbers)); // 출력: [11, 12, 22, 25, 64]
 ```
 
-모든 경우 (Best, Average, Worst): O(N²) — 항상 배열을 완전하게 반복하여 최솟값을 찾고 교환하기 때문에 최선, 평균, 최악의 경우가 모두 동일
+- 모든 경우 (Best, Average, Worst): O(N²)  
+- 항상 배열을 완전하게 반복하여 최솟값을 찾고 교환하기 때문에 최선, 평균, 최악의 경우가 모두 동일
