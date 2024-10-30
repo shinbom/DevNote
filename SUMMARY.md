@@ -68,6 +68,10 @@
 - [타입 좁히기](typescript/page-16.md)
 - [서로소 유니온 타입](typescript/page-17.md)
 - [함수 타입](typescript/page-18.md)
+- [함수 타입 표현식과 호출 시그니쳐](typescript/page-19.md)
+- [함수 타입의 호환성](typescript/page-20.md)
+- [함수 오버로딩](typescript/page-21.md)
+- [사용자 정의 타입 가드](typescript/page-22.md)
 
 ## React
 
