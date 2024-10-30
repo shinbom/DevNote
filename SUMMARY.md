@@ -75,6 +75,8 @@
 - [인터페이스](typescript/page-23.md)
 - [인터페이스 확장](typescript/page-24.md)
 - [인터페이스 선언 합치기](typescript/page-25.md)
+- [클래스](typescript/page-26.md)
+- [타입스크립트의 클래스](typescript/page-27.md)
 
 ## React
 
