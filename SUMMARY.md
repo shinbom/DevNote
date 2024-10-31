@@ -71,7 +71,7 @@
 - [사용자 정의 타입 가드](typescript/page-19.md)
 - [인터페이스](typescript/page-20.md)
 - [클래스](typescript/page-21.md)
-- [타입스크립트의 클래스](typescript/page-22.md)
+- [제네릭](typescript/page-22.md)
 
 ## React
 
