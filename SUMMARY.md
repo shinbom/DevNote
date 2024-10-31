@@ -68,15 +68,10 @@
 - [타입 좁히기](typescript/page-16.md)
 - [서로소 유니온 타입](typescript/page-17.md)
 - [함수 타입](typescript/page-18.md)
-- [함수 타입 표현식과 호출 시그니쳐](typescript/page-19.md)
-- [함수 타입의 호환성](typescript/page-20.md)
-- [함수 오버로딩](typescript/page-21.md)
-- [사용자 정의 타입 가드](typescript/page-22.md)
-- [인터페이스](typescript/page-23.md)
-- [인터페이스 확장](typescript/page-24.md)
-- [인터페이스 선언 합치기](typescript/page-25.md)
-- [클래스](typescript/page-26.md)
-- [타입스크립트의 클래스](typescript/page-27.md)
+- [사용자 정의 타입 가드](typescript/page-19.md)
+- [인터페이스](typescript/page-20.md)
+- [클래스](typescript/page-21.md)
+- [타입스크립트의 클래스](typescript/page-22.md)
 
 ## React
 
