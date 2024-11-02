@@ -11,8 +11,6 @@
     - [메모리 할당](operation_system/page-5.md)
   - 프로세스 & 스레드
     - [프로세스](operation_system/page-6.md)
-    - [스레드](operation_system/page-7.md)
-    - [CPU스케쥴링 알고리즘](operation_system/page-8.md)
 
 ## Algorithm
 
