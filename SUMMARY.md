@@ -84,6 +84,10 @@
 - [JSX Transpiler](React_NextJs/React//deep_dive/jsx_transpiler.md)
 - [Virtual DOM & React Fiber](React_NextJs/React//deep_dive/virtual_dom_&_react_fiber.md)
 - [Class Component](React_NextJs/React//deep_dive/class_component.md)
+- [Functional Component](React_NextJs/React/deep_dive/functional_component.md)
+- [Class Component vs Functional Component](React_NextJs/React/deep_dive/funcional_component_vs_class_component.md)
+- [Rendering](React_NextJs/React/deep_dive/rendering.md)
+
 
 ## NextJs
 
