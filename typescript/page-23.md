@@ -177,6 +177,74 @@ const person: Person = {
 
 기존의 객체 타입으로부터 새로운 객체 타입을 만드는 타입
 
+```typescript
+// 유저정보를 관리
+interface User {
+  id: number;
+  name: string;
+}
+
+// 한명의 유저 정보를 불러오는 기능
+function fetchUser(): User {
+  return {
+    id: 1,
+    name: "신봄",
+  };
+}
+
+// AS_IS
+// 유저 수정
+function updateUser(user: User) {}
+
+// name만 변경하고 싶지만, 매개변수의 타입이 User이므로, id, name이 모두 들어가야 한다.
+// 변경하고자 하는 속성외에 불필요한 데이터가 들어가게 된다.
+updateUser({
+  id: 1,
+  name: "홍길동",
+});
+
+// TO_BE
+// Mapped Type 문법
+type PartialUser = {
+  [key in "id" | "name"]?: User[key];
+};
+
+// `?:`로 바꾸는 것만으로, 모든 객체 타입이 옵셔널로 바뀌게 된다.
+
+type BooleanUser = {
+  [key in "id" | "name"]: boolean;
+};
+// 객체의 타입이 모두 boolean으로 변경되었다.
+
+// keyof연산자로 변경
+type BooleanUser = {
+  [key in keyof User]: boolean;
+};
+
+// 유저의 속성을 모두 readonly로 변경
+type ReadonlyUser = {
+  readonly [key in keyof User]: User[key];
+};
+
+function updateUser(user: PartialUser) {}
+```
+
+필요한 속성만 프로퍼티로 보내고 싶을 때, interface를 별도로 생성하거나 하지 않을 수 있다.
+
+> 맵드 타입은 `인터페이스`에서는 사용할 수 없다.
+
 ## 템플릿 리터럴 타입
 
 스트링 리터럴 타입을 기반으로 정해진 패턴의 문자열만 포함하는 타입
+
+```typescript
+type Color = "red" | "black" | "green";
+
+type Animal = "dog" | "cat" | "chicken";
+
+// AS_IS
+type ColorAnimal = "red-dog" | "red-cat" | "red-chicken" | "black-dog";
+
+// TO_BE
+type ColorAnimal = `${Color}-${Animal}`;
+```
