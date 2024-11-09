@@ -85,6 +85,7 @@
 - [Functional Component](React_NextJs/React/deep_dive/functional_component.md)
 - [Class Component vs Functional Component](React_NextJs/React/deep_dive/funcional_component_vs_class_component.md)
 - [Rendering](React_NextJs/React/deep_dive/rendering.md)
+- [Hooks](React_NextJs/React/deep_dive/hooks.md)
 
 
 ## NextJs
