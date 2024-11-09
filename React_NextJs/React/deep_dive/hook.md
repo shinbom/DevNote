@@ -2,6 +2,13 @@
 
 함수형 컴포넌트가 상태를 사용하거나 클래스형 컴포넌트의 생명주기 메서드를 대체하는 등의 다양한 작업을 하기 위해 추가됨.
 
+## 훅의 규칙
+
+- 최상위에서만 훅을 호출
+  - 반복문, 조건문, 중첩된 함수 내에서 훅 실행할 수 없음
+  - 리액트 함수형 컴포넌트, 사용자 정의 훅에서만 호출할 수 있음
+
+
 ## useState
 
 함수형 컴포넌트 내부에서 상태를 정의하고, 상태를 관리할 수 있게 해주는 훅
@@ -119,7 +126,6 @@ useEffect(() => {}, []);
 - 아무런 값이 없는 경우 : 의존성을 비교할 필요 없이 렌더링 할 때마다 실행
 
 ```jsx
-// 1
 function Component () => {
   // 서버 사이드 렌더링의 경우, 서버에서도 실행
   // 무거운 작업일 경우 렌더링을 방해하므로 성능에 악 영향이 미칠 수 있음.
@@ -380,7 +386,7 @@ function ChildComponent () {
 
 여러개의 `Provider`가 있다면, `가장 가까운 Provider의 값`을 가져옴
 
-## 상위 콘텍스트 존재 여부 체크 
+## 상위 콘텍스트 존재 여부 체크
 
 ```jsx
 const MyContext = createContext<{hello : string } | undefined>(undefined)
@@ -430,3 +436,227 @@ useContext가 있는 컴포넌트는 눈으로 보이지 않는 Provider와 의�
 > useContext로는 주입된 상태를 사용할 수 있을 뿐, 그 자체로는 렌더링 최적화에 아무 도움이 되지 않음.<br/>
 > 최적화를 위해서는 `React.memo`를 사용해야 함. 
 
+## useReducer
+
+- 인수값(2~3개)
+  - reducer : action을 정의하는 함수
+  - initialState 
+    - useReducer의 초깃값
+    - init이 없는 경우, 기본값으로 사용
+
+  - init`(필수값이 아님)`
+    - useState의 인수로 함수로 넘겨줄 때처럼 지연해서 생성시키고 싶을 때 사용하는 함수
+    - 인수로 넘겨주는 함수가 존재할 경우, useState와 동일하게 `게으른 초기화`가 일어나고, initialState를 인수로 init함수가 실행
+
+- 반환값
+  - state : 현재 reducer가 가지고 있는 값
+  - dispatcher : state를 업데이트하는 함수
+    - action을 넘겨줌(state를 변경할 수 있는 액션)
+    - useState는 `값`만 넘겨주지만 useReducer는 `action`을 넘겨줌
+
+```jsx
+type State = {
+  count : number
+}
+
+type Action = { type : 'up' | 'down' | 'reset', payload?: State }
+
+function init ( count : State ) : State {
+  return count
+}
+
+// 초깃값
+
+const initialState : State = { count : 0 }
+
+function reducer( state : State, action : Action ) : State {
+  switch ( action.type ) {
+    case 'up' : 
+      return { count : state.count++ }
+    case 'down' :
+      return { count : state.count - 1 > 0 ? state_count-- : 0 }
+    case 'reset' :
+      return init(action.payload || { count : 0 })
+    default :
+      throw new Error(`Unexpected action type ${action.type}`)
+  }
+}
+
+export default function App() {
+  const [ state, dispatcher ] = useReducer(reducer, initialState, init)
+
+  const handleUpButtonClick = () => {
+    dispatch({ type : 'up' })
+  }
+
+  const handleDownButtonClick = () => {
+    dispatch({ type : 'down' })
+  }
+
+  const handleResetButtonClick = () => {
+    dispatch({ type : 'reset', payload : { count : 1} })
+  }
+
+  ...
+}
+
+```
+
+### useReducer의 목적
+
+> **목적** : state를 변경하는 시나리오를 제한적으로 두고, 변경을 빠르게 확인할 수 있도록 하는 것
+
+- 복잡한 형태의 state를 사전에 정의된 dispatcher로만 수정할 수 있게 만듬 
+
+  - state에 대한 접근은 컴포넌트에서만 가능
+  - 업데이트 방법 상세정의는 컴포넌트 밖에 둠
+  - state의 업데이트를 미리 정의해 둔 dispatcher로만 제한
+
+### useReducer 구현
+
+```javascript
+function reducer(prevState, newState) {
+  return typeof newState === 'function' ? newState(prevState) : newState
+}
+
+function init(initialArg : Initializer) {
+  return typeof initialArg === 'function' ? initialArg() : initialArg
+}
+
+function useStaet(initialArg) {
+  return useReducer(reducer, initialArg, init)
+}
+
+const useReducer = (reducer, initialArg, init) => {
+  const [ state, setState ] = useState(
+    init ? () => init(initialArg) : initialArg,
+  )
+
+  const dispatcher = useCallback(
+    (action) => setState( (prev) => reducer(prev, action) )
+    [reducer]
+  )
+
+  return useMemo( () => [state, dispatch], [sate, dispatch] )
+}
+```
+
+## useLayoutEffect
+
+모든 DOM의 변경 후에 useLayoutEffect의 콜백 함수 실행이 `동기적`으로 발생
+
+```jsx
+const [count, setCount] = useState(0)
+
+useLayoutEffect( () => {
+  console.log('useLayoutEffect', count)
+}, [count])
+```
+
+### useLayoutEffect 실행순서
+
+1. 리액트가 DOM 업데이트
+2. useLayoutEffect를 실행
+3. 브라우저에 변경 사항을 반영
+4. useEffect를 실행
+
+> useLayoutEffect의 실행이 종료될 때까지 기다린 다음에 화면을 그림<br/>
+> useLayoutEffect가 완료될 때까지 리액트 컴포넌트는 기다리므로, 일시 중지되거나 성능에 문제가 발생할 수 있음
+
+DOM은 계산됐지만 면에 반영되기 전에 하고 싶은 작업이 있을 때 사용하는 것이 좋음
+
+---
+
+## 사용자 정의 훅
+
+서로 다른 컴포넌트 내부에서 같은 로직을 공유하고 할 때 사용
+
+**사용자 정의 훅(Custom Hook) 이름은 `use`로 시작해야 함**
+
+```jsx
+function useOnlineStatus() {
+  const [isOnline, setIsOnline] = useState(true);
+  useEffect(() => {
+    function handleOnline() {
+      setIsOnline(true);
+    }
+    function handleOffline() {
+      setIsOnline(false);
+    }
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
+  return isOnline;
+}
+
+import { useOnlineStatus } from './useOnlineStatus.js';
+
+function StatusBar() {
+  const isOnline = useOnlineStatus();
+  return <h1>{isOnline ? '✅ 온라인' : '❌ 연결 안 됨'}</h1>;
+}
+...
+```
+
+## 고차 컴포넌트
+
+- 고차 컴포넌트(HOC, High Order Component)
+  - 컴포넌트 자체의 로직을 재사용하기 위한 방법
+
+**고차 컴포넌트 훅 이름은 `with`로 시작해야 함**
+
+```javascript
+// 고차 함수 예제
+function add(a) {
+  return function (b) {
+    return a + b
+  }
+}
+```
+
+```jsx
+interface LoginProps { 
+  loginRequired ?: boolean
+}
+
+function withLoginComponent<T>( Component : ComponentType<T> ) {
+  return function (props : T & LoginProps) {
+    const { loginRequired, ...restProps } = props
+
+    if (loginRequired) {
+      return <>로그인이 필요합니다.</>
+    }
+
+    return <Component {...(restProps as T)} />
+  }
+}
+
+const Component = withLoginComponent( (props : {value : string}) => {
+  return <h3>{props.value}</h3>
+})
+
+export default function App () {
+  const isLogin = true
+  return <Component value='text' loginRequired={isLogin}/>
+}
+```
+
+### 고차 컴포넌트 사용 시, 주의할 점
+
+- 부수효과를 최소화 해야 함
+  - 컴포넌트의 props를 임의로 수정, 추가, 삭제하는 일이 없어야 함.
+- 여러개의 고차 컴포넌트로 컴포넌트를 감쌀 경우 복잡성이 커짐
+
+## 사용자 정의 훅과 고차 컴포넌트 중 선택 방법
+
+### 사용자 정의 훅을 사용하는 경우
+
+단순히 `useEffect, useState`를 사용하여, 공통 로직을 격리할 경우
+
+### 고차 컴포넌트를 사용하는 경우
+
+함수형 컴포넌트의 반환값, 즉 렌더링의 결과물에도 영향을 미치는 공통 로직일 경우
