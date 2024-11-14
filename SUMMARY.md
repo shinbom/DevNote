@@ -86,7 +86,8 @@
 - [Class Component vs Functional Component](React_NextJs/React/deep_dive/funcional_component_vs_class_component.md)
 - [Rendering](React_NextJs/React/deep_dive/rendering.md)
 - [Hooks](React_NextJs/React/deep_dive/hooks.md)
-
+- [Server Side Rendering](React_NextJs/React/deep_dive/server_side_rendering.md)
+- [React Server Side Rendering](React_NextJs/React/deep_dive/react_server_side_rendering.md)
 
 ## NextJs
 
