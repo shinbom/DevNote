@@ -29,7 +29,11 @@
 
 - [문제 해결법 소개](./algorithm/problem_solve/page-1.md)
 - [문제의 이해](./algorithm/problem_solve/page-2.md)
-- [문제 해결 패턴](./algorithm/problem_solve/page-3.md)
+- 문제 해결 패턴
+  - [빈도수 세기 패턴](./algorithm/problem_solve/page-3.md)
+  - [빈도수 세기 패턴 과제](./algorithm/problem_solve/page-4.md)
+  - [다중 포인터 패턴](./algorithm/problem_solve/page-5.md)
+  - [# 다중 포인터 패턴 과제](./algorithm/problem_solve/page-6.md)
 
 ## Javascript
 
