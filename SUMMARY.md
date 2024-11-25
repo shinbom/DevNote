@@ -92,6 +92,7 @@
 - [Hooks](React_NextJs/React/deep_dive/hooks.md)
 - [Server Side Rendering](React_NextJs/React/deep_dive/server_side_rendering.md)
 - [React Server Side Rendering](React_NextJs/React/deep_dive/react_server_side_rendering.md)
+- [리액트 상태관리](React_NextJs/React/deep_dive/react_state_management.md)
 
 ## NextJs
 
