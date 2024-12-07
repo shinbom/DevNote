@@ -33,7 +33,9 @@
   - [빈도수 세기 패턴](./algorithm/problem_solve/page-3.md)
   - [빈도수 세기 패턴 과제](./algorithm/problem_solve/page-4.md)
   - [다중 포인터 패턴](./algorithm/problem_solve/page-5.md)
-  - [# 다중 포인터 패턴 과제](./algorithm/problem_solve/page-6.md)
+  - [다중 포인터 패턴 과제](./algorithm/problem_solve/page-6.md)
+  - [기준점 간 이동 배열 패턴(Sliding Window Pattern)](./algorithm/problem_solve/page-7.md)
+  - [분할과 정복 패턴(Divide and Conquer)](./algorithm/problem_solve/page-8.md)
 
 ## Javascript
 
@@ -74,6 +76,10 @@
 - [인터페이스](typescript/page-20.md)
 - [클래스](typescript/page-21.md)
 - [제네릭](typescript/page-22.md)
+- [타입 조작하기](typescript/page-23.md)
+- [조건부 타입](typescript/page-24.md)
+- [유틸리티 타입](typescript/page-25.md)
+
 
 ## React
 

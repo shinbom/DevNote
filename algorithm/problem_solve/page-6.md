@@ -22,3 +22,19 @@ function countUniqueValues(arr) {
   return [...new Set(arr)].length;
 }
 ```
+
+## 고유값 세기 솔루션(countUniqueValues)
+
+```javascript
+// 강의 풀이
+function countUniqueValues(arr) {
+    let i = 0
+    for(let j = 1; j < arr.length; j++){
+        if(arr[i] !== arr[j]) {
+            i++;
+            arr[i] = arr[j]
+        }
+    }
+}
+```
+
