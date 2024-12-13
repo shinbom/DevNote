@@ -120,3 +120,97 @@ function solution(numLog) {
     }).join('')
 }
 ```
+
+---
+
+## 특별한 이차원 배열 
+
+n × n 크기의 이차원 배열 arr이 매개변수로 주어질 때, arr이 다음을 만족하면 1을 아니라면 0을 return 하는 solution 함수를 작성해 주세요.
+
+0 ≤ i, j < n인 정수 i, j에 대하여 arr[i][j] = arr[j][i]
+
+| arr	| result |
+|---|---|
+|[[5, 192, 33], [192, 72, 95], [33, 95, 999]]|	1|
+|[[19, 498, 258, 587], [63, 93, 7, 754], [258, 7, 1000, 723], [587, 754, 723, 81]]|	0|
+
+```javascript
+// 내 풀이
+function solution(arr) {
+    let answer = []
+    // N^2
+    for(let i = 0; i < arr.length; i++){
+        for(let j = 0; j < arr.length; j++){
+            answer.push(arr[i][j] === arr[j][i])
+        }
+    }
+    return Number(answer.every((x) => x))
+}
+```
+
+```javascript
+// 더 좋은 풀이
+function solution(arr) {
+    return arr.every((r, i) => r.every((_, j) => arr[i][j] === arr[j][i])) ? 1 : 0;
+}
+```
+
+ > 나는 불필요한 every, Number를 사용했다.
+
+---
+머쓱이네 피자가게는 피자를 여섯 조각으로 잘라 줍니다. 피자를 나눠먹을 사람의 수 n이 매개변수로 주어질 때, n명이 주문한 피자를 남기지 않고 모두 같은 수의 피자 조각을 먹어야 한다면 최소 몇 판을 시켜야 하는지를 return 하도록 solution 함수를 완성해보세요.
+
+|n	|result|
+|--|--|
+|6	|1|
+|10| 5|
+|4	|2|
+
+
+```javascript
+// 나의 풀이
+function solution(members) {
+    let answer = 1;
+    // O(N)
+    for(let slice_pizza = 6; 0 < slice_pizza % members; slice_pizza += 6){
+        answer = slice_pizza / 6 + 1
+    }
+    return answer
+}
+```
+
+> 이전에도 코딩을 할 때 바로 코딩하기보다는 종이에 써가면서 했었는데, 코딩테스트는 빠르게 풀어야 겠다라는 생각이 자꾸 드는 것 같다. 이제부터라도
+> 문제를 보고 바로 풀려고 하기보다는 예전부터 해왔던 대로 문제를 보고 분석하면서 종이에 차근차근 정리를 하니 해결방안이 보였다.
+
+---
+
+## 배열 만들기 3
+
+정수 배열 arr와 2개의 구간이 담긴 배열 intervals가 주어집니다.
+
+intervals는 항상 [[a1, b1], [a2, b2]]의 꼴로 주어지며 각 구간은 닫힌 구간입니다. 닫힌 구간은 양 끝값과 그 사이의 값을 모두 포함하는 구간을 의미합니다.
+
+이때 배열 arr의 첫 번째 구간에 해당하는 배열과 두 번째 구간에 해당하는 배열을 앞뒤로 붙여 새로운 배열을 만들어 return 하는 solution 함수를 완성해 주세요.
+
+| arr	| intervals	| result |
+| ---- | --- | --- |
+|[1, 2, 3, 4, 5]	| [[1, 3], [0, 4]]|	[2, 3, 4, 1, 2, 3, 4, 5]|
+
+
+```javascript
+    function solution(arr, intervals) {
+        const result1 = arr.slice(intervals[0][0], intervals[0][1] + 1)
+        const result2 = arr.slice(intervals[1][0], intervals[1][1] + 1)
+        return result1.concat(result2)
+    }
+```
+
+```javascript
+// 더 좋은 풀이
+function solution(arr, intervals) {
+    const [[a,b],[c,d]] = intervals;
+
+    return [...arr.slice(a, b+1), ...arr.slice(c, d+1)];
+}
+
+```
