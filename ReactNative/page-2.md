@@ -1,5 +1,5 @@
 ---
-title: 핵심 컴포넌트 & 컴포넌트 스타일링
+title: "핵심 컴포넌트 & 컴포넌트 스타일링"
 description: 
 created: 2024-06-20
 modified: 2024-06-20

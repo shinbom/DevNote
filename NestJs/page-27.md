@@ -1,5 +1,5 @@
 ---
-title: 관계 설정하기
+title: "관계 설정하기"
 description: 
 created: 2024-07-28
 modified: 2024-07-28

@@ -1,5 +1,5 @@
 ---
-title: 문제 해결 패턴
+title: "문제 해결 패턴"
 description: 
 created: 2024-10-08
 modified: 2024-10-11

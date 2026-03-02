@@ -1,5 +1,5 @@
 ---
-title: 가상 DOM과 리액트 파이버
+title: "가상 DOM과 리액트 파이버"
 description: 
 created: 2024-10-29
 modified: 2026-03-02

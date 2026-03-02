@@ -1,5 +1,5 @@
 ---
-title: 다중 포인터 패턴
+title: "다중 포인터 패턴"
 description: 
 created: 2024-11-15
 modified: 2024-11-15

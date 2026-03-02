@@ -1,5 +1,5 @@
 ---
-title: 상품 상세
+title: "상품 상세"
 description: 
 created: 2024-10-12
 modified: 2024-10-11

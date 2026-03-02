@@ -1,5 +1,5 @@
 ---
-title: 2장. 도구 다루기
+title: "2장. 도구 다루기"
 description: 
 created: 2022-06-03
 modified: 2024-02-23

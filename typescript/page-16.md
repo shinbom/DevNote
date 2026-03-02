@@ -1,5 +1,5 @@
 ---
-title: 타입 좁히기
+title: "타입 좁히기"
 description: 
 created: 2024-10-12
 modified: 2024-10-11

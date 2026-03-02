@@ -1,5 +1,5 @@
 ---
-title: 타입스크립트 이해하기
+title: "타입스크립트 이해하기"
 description: 
 created: 2024-10-04
 modified: 2024-09-20

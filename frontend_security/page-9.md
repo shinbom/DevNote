@@ -1,5 +1,5 @@
 ---
-title: 오픈 리다이렉트
+title: "오픈 리다이렉트"
 description: 
 created: 2024-01-09
 modified: 2024-01-23

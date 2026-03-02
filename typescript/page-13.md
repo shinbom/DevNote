@@ -1,5 +1,5 @@
 ---
-title: 대수 타입
+title: "대수 타입"
 description: 
 created: 2024-10-11
 modified: 2024-10-10

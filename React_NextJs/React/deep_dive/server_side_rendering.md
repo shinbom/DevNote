@@ -1,5 +1,5 @@
 ---
-title: 서버 사이드 렌더링
+title: "서버 사이드 렌더링"
 description: 
 created: 2024-11-13
 modified: 2024-11-14

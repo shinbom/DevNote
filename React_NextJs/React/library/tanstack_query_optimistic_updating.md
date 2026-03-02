@@ -1,5 +1,5 @@
 ---
-title: Tanstack Query Optimistic Updating
+title: "Tanstack Query Optimistic Updating"
 description: 
 created: 2024-10-15
 modified: 2024-10-16

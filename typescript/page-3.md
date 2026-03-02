@@ -1,5 +1,5 @@
 ---
-title: 타입스크립트의 기본 타입
+title: "타입스크립트의 기본 타입"
 description: 
 created: 2024-08-28
 modified: 2024-08-28

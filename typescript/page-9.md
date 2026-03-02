@@ -1,5 +1,5 @@
 ---
-title: Void타입과 Never타입
+title: "Void타입과 Never타입"
 description: 
 created: 2024-09-09
 modified: 2024-09-05

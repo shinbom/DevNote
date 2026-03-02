@@ -1,5 +1,5 @@
 ---
-title: 컴포넌트를 작은 컴포넌트로 쪼개기
+title: "컴포넌트를 작은 컴포넌트로 쪼개기"
 description: 
 created: 2024-06-25
 modified: 2024-06-30

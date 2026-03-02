@@ -1,5 +1,5 @@
 ---
-title: 장바구니에 상품 담기
+title: "장바구니에 상품 담기"
 description: 
 created: 2024-10-12
 modified: 2024-10-11

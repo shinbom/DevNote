@@ -1,5 +1,5 @@
 ---
-title: 타입 추론
+title: "타입 추론"
 description: 
 created: 2024-10-12
 modified: 2024-10-11

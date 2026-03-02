@@ -1,5 +1,5 @@
 ---
-title: 목 함수를 사용하는 스파이
+title: "목 함수를 사용하는 스파이"
 description: 
 created: 2024-07-23
 modified: 2024-07-23

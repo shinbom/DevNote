@@ -1,5 +1,5 @@
 ---
-title: 서로소 유니온 타입
+title: "서로소 유니온 타입"
 description: 
 created: 2024-10-22
 modified: 2024-10-17

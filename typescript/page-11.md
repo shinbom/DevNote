@@ -1,5 +1,5 @@
 ---
-title: 타입계층도
+title: "타입계층도"
 description: 
 created: 2024-10-11
 modified: 2024-10-10

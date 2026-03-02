@@ -1,5 +1,5 @@
 ---
-title: 응답 속성 제외
+title: "응답 속성 제외"
 description: 
 created: 2024-06-14
 modified: 2024-04-12

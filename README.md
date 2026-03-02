@@ -1,5 +1,5 @@
 ---
-title: # 🎯 무엇을 기록하나요?
+title: "# 🎯 무엇을 기록하나요?"
 description: 
 created: 2026-03-02
 modified: 2026-03-02

@@ -1,5 +1,5 @@
 ---
-title: 타입 조작하기
+title: "타입 조작하기"
 description: 
 created: 2024-11-07
 modified: 2024-11-07

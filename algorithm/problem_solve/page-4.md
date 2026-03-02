@@ -1,5 +1,5 @@
 ---
-title: 빈도수 세기 패턴 : 과제
+title: "빈도수 세기 패턴 : 과제"
 description: 
 created: 2024-11-15
 modified: 2024-11-15

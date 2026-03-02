@@ -1,5 +1,5 @@
 ---
-title: NextJs에서 Link 컴포넌트를 사용하는 이유
+title: "NextJs에서 Link 컴포넌트를 사용하는 이유"
 description: 
 created: 2024-09-09
 modified: 2024-09-09

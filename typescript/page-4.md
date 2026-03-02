@@ -1,5 +1,5 @@
 ---
-title: 배열과 튜플 타입
+title: "배열과 튜플 타입"
 description: 
 created: 2024-08-28
 modified: 2024-08-28

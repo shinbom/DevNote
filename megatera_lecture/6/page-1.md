@@ -1,5 +1,5 @@
 ---
-title: External Store
+title: "External Store"
 description: 
 created: 2024-10-12
 modified: 2024-10-11

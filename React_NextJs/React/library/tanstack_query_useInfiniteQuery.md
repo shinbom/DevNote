@@ -1,5 +1,5 @@
 ---
-title: Tanstack Query useInfiniteQuery를
+title: "Tanstack Query useInfiniteQuery를"
 description: 
 created: 2024-10-15
 modified: 2024-10-16

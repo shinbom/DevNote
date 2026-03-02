@@ -1,5 +1,5 @@
 ---
-title: 리액트의 상태관리
+title: "리액트의 상태관리"
 description: 
 created: 2024-11-18
 modified: 2024-11-25

@@ -1,5 +1,5 @@
 ---
-title: 객체 타입
+title: "객체 타입"
 description: 
 created: 2024-08-28
 modified: 2024-08-28

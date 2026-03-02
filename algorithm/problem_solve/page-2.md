@@ -1,5 +1,5 @@
 ---
-title: 문제의 이해
+title: "문제의 이해"
 description: 
 created: 2024-09-14
 modified: 2024-10-04

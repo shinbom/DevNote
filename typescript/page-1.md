@@ -1,5 +1,5 @@
 ---
-title: 타입스크립트
+title: "타입스크립트"
 description: 
 created: 2024-09-02
 modified: 2024-08-29

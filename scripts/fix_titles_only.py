@@ -40,8 +40,8 @@ def fix_special_chars_in_title(file_path):
                 if colon_index > 0:
                     title_value = line[colon_index + 1:].strip()
                     
-                    # 특수문자가 있는데 따옴표로 감싸지 않은 경우
-                    if ('[' in title_value or '(' in title_value or ')' in title_value) and not (title_value.startswith('"') and title_value.endswith('"')):
+                    # 모든 title을 따옴표로 감싸기 (이미 감싸져 있지 않은 경우)
+                    if not (title_value.startswith('"') and title_value.endswith('"')):
                         title_value = f'"{title_value}"'
                         line = f'title: {title_value}'
                         modified = True

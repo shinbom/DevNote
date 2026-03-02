@@ -1,5 +1,5 @@
 ---
-title: 문제 풀이
+title: "문제 풀이"
 description: 
 created: 2024-10-06
 modified: 2026-03-02

@@ -1,5 +1,5 @@
 ---
-title: Nest CLI 프로젝트 생성하기
+title: "Nest CLI 프로젝트 생성하기"
 description: 
 created: 2024-03-08
 modified: 2024-03-09

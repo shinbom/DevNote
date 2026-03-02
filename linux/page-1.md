@@ -1,5 +1,5 @@
 ---
-title: 리눅스 개요
+title: "리눅스 개요"
 description: 
 created: 2025-04-10
 modified: 2025-05-26

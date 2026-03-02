@@ -1,5 +1,5 @@
 ---
-title: 빈도수 세기 / 다중 포인터 - areThereDuplicates
+title: "빈도수 세기 / 다중 포인터 - areThereDuplicates"
 description: 
 created: 2025-07-04
 modified: 2025-05-26

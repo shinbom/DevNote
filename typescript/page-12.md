@@ -1,5 +1,5 @@
 ---
-title: 객체타입간의 호환성
+title: "객체타입간의 호환성"
 description: 
 created: 2024-10-11
 modified: 2024-10-10

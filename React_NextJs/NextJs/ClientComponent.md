@@ -1,5 +1,5 @@
 ---
-title: Client Component
+title: "Client Component"
 description: 
 created: 2024-06-16
 modified: 2024-06-16

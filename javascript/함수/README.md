@@ -1,5 +1,5 @@
 ---
-title: 함수
+title: "함수"
 description: 
 created: 2024-09-09
 modified: 2024-09-04

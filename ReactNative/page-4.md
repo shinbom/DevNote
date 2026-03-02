@@ -1,5 +1,5 @@
 ---
-title: 스타일링
+title: "스타일링"
 description: 
 created: 2024-06-21
 modified: 2024-06-21

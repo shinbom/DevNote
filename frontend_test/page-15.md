@@ -1,5 +1,5 @@
 ---
-title: 시각적 회귀 테스트와 E2E 테스트
+title: "시각적 회귀 테스트와 E2E 테스트"
 description: 
 created: 2024-08-21
 modified: 2024-08-11

@@ -1,5 +1,5 @@
 ---
-title: 메모리 할당
+title: "메모리 할당"
 description: 
 created: 2024-02-02
 modified: 2024-02-02
