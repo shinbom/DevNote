@@ -54,8 +54,8 @@ tags: []
     - [2752번: 세수 정렬](./algorithm/codingTest/boj/2752/main.md)
     - [5622번: 다이얼](./algorithm/codingTest/boj/5622/main.md)
   - 프로그래머스
-    - [프로그래머스 레벨 0](./algorithm/codingTest/programmers_lv0.md)
-    - [프로그래머스 레벨 1](./algorithm/codingTest/programmers_lv1.md)
+    - [프로그래머스 레벨 0](./algorithm/codingTest/progammers/programmers_lv0.md)
+    - [프로그래머스 레벨 1](./algorithm/codingTest/progammers/programmers_lv1.md)
 
 ## Javascript
 
