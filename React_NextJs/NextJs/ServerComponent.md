@@ -1,3 +1,11 @@
+---
+title: React Server Component
+description: 
+created: 2024-06-16
+modified: 2024-06-16
+tags: []
+---
+
 # React Server Component
 
 서버에서 실행되는 컴포넌트

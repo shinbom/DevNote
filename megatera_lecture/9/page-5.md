@@ -1,3 +1,11 @@
+---
+title: 장바구니에 상품 담기
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # 장바구니에 상품 담기
 
 `Product`와 관련된 `Option` 정보, 수량 등 다양한 조합이 조합되어 `Cart Item`을 구성하는 것을 장바구니에 상품을 담는다는 의미가 된다.

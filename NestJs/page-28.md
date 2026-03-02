@@ -1,3 +1,11 @@
+---
+title: 응답 서식 지정하기 & DTO로 속성 변환하기
+description: 
+created: 2024-07-28
+modified: 2024-07-28
+tags: []
+---
+
 # 응답 서식 지정하기 & DTO로 속성 변환하기
 
 ```

@@ -1,3 +1,11 @@
+---
+title: 타입 단언(Type Assertion)
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # 타입 단언(Type Assertion)
 
 ## 필요한 상황

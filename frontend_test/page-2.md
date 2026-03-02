@@ -1,3 +1,11 @@
+---
+title: 테스트 코드
+description: 
+created: 2024-07-06
+modified: 2024-07-09
+tags: []
+---
+
 # 테스트 코드
 
 > 테스트 코드 실행방법과 Jest에서 사용하는 test, describe, expect에 관한 내용은 생략하여 정리하였다.

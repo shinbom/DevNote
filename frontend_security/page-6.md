@@ -1,3 +1,11 @@
+---
+title: XSS(cross site scripting)
+description: 
+created: 2024-01-05
+modified: 2024-01-23
+tags: []
+---
+
 # XSS(cross site scripting)
 
 ## 능동적 공격과 수동적 공격

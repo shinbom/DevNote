@@ -1,3 +1,11 @@
+---
+title: 스코프(Scope)
+description: 
+created: 2024-09-09
+modified: 2024-09-04
+tags: []
+---
+
 # 스코프(Scope)
 
 1. 전역 스코프(Global scope) : 스크립트 전체에서 참조, 어느곳에서든 참조됨.

@@ -1,3 +1,11 @@
+---
+title: Attrs
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # Attrs
 
 속성 추가

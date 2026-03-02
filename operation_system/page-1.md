@@ -1,3 +1,11 @@
+---
+title: 운영체제
+description: 
+created: 2024-01-24
+modified: 2024-01-24
+tags: []
+---
+
 # 운영체제
 
 ## 운영체제와 컴퓨터

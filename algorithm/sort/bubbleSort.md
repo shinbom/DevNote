@@ -1,3 +1,11 @@
+---
+title: 버블정렬(Bubble Sort)
+description: 
+created: 2026-03-02
+modified: 2026-03-02
+tags: []
+---
+
 # 버블정렬(Bubble Sort)
 
 ![bubbleSort](../src/bubbleSort.gif)

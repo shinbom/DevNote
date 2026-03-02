@@ -1,3 +1,11 @@
+---
+title: 상품 상세
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # 상품 상세
 
 ## useParams

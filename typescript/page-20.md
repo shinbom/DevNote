@@ -1,3 +1,11 @@
+---
+title: 인터페이스
+description: 
+created: 2024-11-01
+modified: 2024-10-31
+tags: []
+---
+
 # 인터페이스
 
 타입에 이름을 지어주는 또 다른 문법

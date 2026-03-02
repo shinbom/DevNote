@@ -1,3 +1,11 @@
+---
+title: API 설계, TypeORM, 데이터베이스
+description: 
+created: 2024-04-10
+modified: 2024-04-10
+tags: []
+---
+
 # API 설계, TypeORM, 데이터베이스
 
 ## API 설계

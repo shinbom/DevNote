@@ -1,3 +1,11 @@
+---
+title: Blocking과 Non-Blocking
+description: 
+created: 2024-09-09
+modified: 2024-09-09
+tags: []
+---
+
 # Blocking과 Non-Blocking
 
 Node.js 프로세스에서 JavaScript를 실행할 때 JavaScript가 아닌 작업이 완료될 때까지 기다려하는 경우이다.

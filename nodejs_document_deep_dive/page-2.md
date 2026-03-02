@@ -1,3 +1,11 @@
+---
+title: Node.js와 브라우저의 차이점
+description: 
+created: 2024-09-02
+modified: 2024-09-02
+tags: []
+---
+
 # Node.js와 브라우저의 차이점
 
 > 브라우저와 Node.js 모두 JavaScript를 프로그래밍 언어로 사용

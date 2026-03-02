@@ -1,3 +1,11 @@
+---
+title: 주석
+description: 
+created: 2024-06-16
+modified: 2024-06-13
+tags: []
+---
+
 # 주석
 
 > 나쁜 코드에 주석을 달지 마라<br/>

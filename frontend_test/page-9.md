@@ -1,3 +1,11 @@
+---
+title: 컴포넌트 스냅숏 테스트
+description: 
+created: 2024-07-24
+modified: 2024-07-24
+tags: []
+---
+
 # 컴포넌트 스냅숏 테스트
 
 `스냅숏 테스트(snapshot test)` : UI컴포넌트가 예기치 않게 변경됐는지 검증

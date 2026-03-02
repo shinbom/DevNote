@@ -1,3 +1,11 @@
+---
+title: Atomic Design
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # Atomic Design
 
 계층형 구조를 몇가지 카테고리로 묶은 방법

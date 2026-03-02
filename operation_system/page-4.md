@@ -1,3 +1,11 @@
+---
+title: 가상 메모리(Virtual Memory)
+description: 
+created: 2024-02-01
+modified: 2024-02-01
+tags: []
+---
+
 # 가상 메모리(Virtual Memory)
 
 컴퓨터가 실제로 이용 가능한 메모리 자원을 추상화 하여 이를 사용하는 사용자들에게 매우 큰 메모리로 보이게 만드는 것

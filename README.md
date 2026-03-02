@@ -1,3 +1,11 @@
+---
+title: # 🎯 무엇을 기록하나요?
+description: 
+created: 2026-03-02
+modified: 2026-03-02
+tags: []
+---
+
 <div align="center">
   <h1>🚀 DevNote</h1>
   <p><b>지속적인 성장과 회고를 위한 개발 기록 저장소입니다.</b></p>

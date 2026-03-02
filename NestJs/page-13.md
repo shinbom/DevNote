@@ -1,3 +1,11 @@
+---
+title: 응답 속성 제외
+description: 
+created: 2024-06-14
+modified: 2024-04-12
+tags: []
+---
+
 # 응답 속성 제외
 
 Response를 반환할 때, 필요한 값만 반환한다.

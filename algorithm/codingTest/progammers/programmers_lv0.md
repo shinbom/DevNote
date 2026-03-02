@@ -1,3 +1,11 @@
+---
+title: 문제 풀이
+description: 
+created: 2026-03-02
+modified: 2026-03-02
+tags: []
+---
+
 # 문제 풀이
 
 ## 콜라츠 수열

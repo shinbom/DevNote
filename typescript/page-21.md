@@ -1,3 +1,11 @@
+---
+title: 클래스
+description: 
+created: 2024-11-01
+modified: 2024-10-31
+tags: []
+---
+
 # 클래스
 
 ```typescript

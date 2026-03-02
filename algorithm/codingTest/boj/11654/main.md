@@ -1,3 +1,11 @@
+---
+title: [K번째 수](http://www.acmicpc.net/problem/11654)
+description: 
+created: 2026-03-01
+modified: 2026-03-02
+tags: []
+---
+
 # [K번째 수](http://www.acmicpc.net/problem/11654)
 
 ## 문제

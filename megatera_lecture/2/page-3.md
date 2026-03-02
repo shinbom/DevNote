@@ -1,3 +1,11 @@
+---
+title: DOM 트리
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # DOM 트리
 
 DOM(Document Object Model)에 따르면, HTML태그는 객체입니다.

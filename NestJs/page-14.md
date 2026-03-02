@@ -1,3 +1,11 @@
+---
+title: 인터셉터
+description: 
+created: 2024-04-13
+modified: 2024-04-13
+tags: []
+---
+
 # 인터셉터
 
 ![](./src/Interceptors.png)

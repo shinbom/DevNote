@@ -1,3 +1,11 @@
+---
+title: UI테스트
+description: 
+created: 2024-07-24
+modified: 2024-07-24
+tags: []
+---
+
 # UI테스트
 
 ## 특정 DOM 요소 취득하기

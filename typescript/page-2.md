@@ -1,3 +1,11 @@
+---
+title: 타입스크립트 컴파일러 옵션
+description: 
+created: 2024-09-02
+modified: 2024-08-29
+tags: []
+---
+
 # 타입스크립트 컴파일러 옵션
 
 ```bash

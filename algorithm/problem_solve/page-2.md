@@ -1,3 +1,11 @@
+---
+title: 문제의 이해
+description: 
+created: 2024-09-14
+modified: 2024-10-04
+tags: []
+---
+
 # 문제의 이해
 
 1. 문제를 이해하기

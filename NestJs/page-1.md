@@ -1,3 +1,11 @@
+---
+title: 프로젝트 셋업
+description: 
+created: 2024-03-06
+modified: 2024-03-06
+tags: []
+---
+
 # 프로젝트 셋업
 
 ```bash

@@ -1,3 +1,11 @@
+---
+title: 서버 사이드 렌더링을 위한 리액트 API
+description: 
+created: 2024-11-15
+modified: 2024-11-14
+tags: []
+---
+
 # 서버 사이드 렌더링을 위한 리액트 API
 
 - Node.js 서버 환경에서 실행

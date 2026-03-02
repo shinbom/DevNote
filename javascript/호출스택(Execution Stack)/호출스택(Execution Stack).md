@@ -1,3 +1,11 @@
+---
+title: 호출스택(Execution Stack)
+description: 
+created: 2024-09-09
+modified: 2024-09-04
+tags: []
+---
+
 # 호출스택(Execution Stack)
 
 <aside>

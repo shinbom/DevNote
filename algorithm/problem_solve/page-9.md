@@ -1,3 +1,11 @@
+---
+title: 빈도수 세기 - sameFrequency
+description: 
+created: 2025-05-26
+modified: 2025-05-26
+tags: []
+---
+
 # 빈도수 세기 - sameFrequency
 
 빈도수 세기 - sameFrequency

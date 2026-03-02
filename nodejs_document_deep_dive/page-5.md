@@ -1,3 +1,11 @@
+---
+title: Event Loop
+description: 
+created: 2024-09-09
+modified: 2024-09-09
+tags: []
+---
+
 # Event Loop
 
 > 브라우저에서의 이벤트 루프와 NodeJs의 이벤트 루프는 동작 차이가 있으므로, 이 부분도 공부가 필요해 보인다.

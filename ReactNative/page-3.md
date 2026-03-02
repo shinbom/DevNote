@@ -1,3 +1,11 @@
+---
+title: Core Component(핵심 컴포넌트)
+description: 
+created: 2024-06-20
+modified: 2024-06-20
+tags: []
+---
+
 # Core Component(핵심 컴포넌트)
 
 > Native 문법은 엄격하다.

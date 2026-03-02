@@ -1,3 +1,11 @@
+---
+title: 타입 추론
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # 타입 추론
 
 ## 점진적 타입 시스템

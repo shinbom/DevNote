@@ -1,3 +1,11 @@
+---
+title: Design System
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # Design System
 
 > [Laura Kalbag의 “Design Systems” 소개](https://24ways.org/2012/design-systems/)

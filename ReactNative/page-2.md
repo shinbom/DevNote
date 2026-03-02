@@ -1,3 +1,11 @@
+---
+title: 핵심 컴포넌트 & 컴포넌트 스타일링
+description: 
+created: 2024-06-20
+modified: 2024-06-20
+tags: []
+---
+
 # 핵심 컴포넌트 & 컴포넌트 스타일링
 
 React Native는 HTML, CSS를 사용할 수 없음.

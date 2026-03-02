@@ -1,3 +1,11 @@
+---
+title: 사용자 정의 타입 가드(Custom Type Guard)
+description: 
+created: 2024-11-01
+modified: 2024-10-31
+tags: []
+---
+
 # 사용자 정의 타입 가드(Custom Type Guard)
 
 ```typescript

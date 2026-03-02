@@ -1,3 +1,11 @@
+---
+title: useRef & Custom Hook
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # useRef & Custom Hook
 
 > [beta 문서의 useRef](https://beta.reactjs.org/reference/react/useRef)

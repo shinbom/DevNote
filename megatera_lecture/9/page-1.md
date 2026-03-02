@@ -1,3 +1,11 @@
+---
+title: 개발을 위한 준비
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # 개발을 위한 준비
 
 ## 용어 정의

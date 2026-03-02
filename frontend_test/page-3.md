@@ -1,3 +1,11 @@
+---
+title: 비동기 처리 테스트
+description: 
+created: 2024-07-10
+modified: 2024-07-10
+tags: []
+---
+
 # 비동기 처리 테스트
 
 ```typescript

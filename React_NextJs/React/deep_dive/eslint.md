@@ -1,3 +1,11 @@
+---
+title: ![ESLint](https://eslint.org/)
+description: 
+created: 2024-11-26
+modified: 2024-11-26
+tags: []
+---
+
 # ![ESLint](https://eslint.org/)
 
 자바스크립의 코드를 정적 분석해 잠재적인 문제를 발견하고 나아가 수정까지 도와주는 도구

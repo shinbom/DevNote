@@ -1,3 +1,11 @@
+---
+title: iOS & 안드로이드 스타일링의 차이점
+description: 
+created: 2024-06-24
+modified: 2024-06-24
+tags: []
+---
+
 # iOS & 안드로이드 스타일링의 차이점
 
 ```tsx

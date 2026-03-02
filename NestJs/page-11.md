@@ -1,3 +1,11 @@
+---
+title: 데이터 쿼리(데이터 조회, 수정, 삭제 등)
+description: 
+created: 2024-04-10
+modified: 2024-04-10
+tags: []
+---
+
 # 데이터 쿼리(데이터 조회, 수정, 삭제 등)
 
 ```typescript

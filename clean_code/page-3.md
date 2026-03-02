@@ -1,3 +1,11 @@
+---
+title: 함수
+description: 
+created: 2024-02-27
+modified: 2024-02-27
+tags: []
+---
+
 # 함수
 
 ## 작게 만들어라!

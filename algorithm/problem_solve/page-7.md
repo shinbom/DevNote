@@ -1,3 +1,11 @@
+---
+title: 기준점 간 이동 배열 패턴(Sliding Window Pattern)
+description: 
+created: 2024-11-29
+modified: 2024-12-07
+tags: []
+---
+
 # 기준점 간 이동 배열 패턴(Sliding Window Pattern)
 
 배열이나 문자열과 같은 일련의 데이터를 입력하거나 특정 방식으로 연속적인 해당 데이터의 하위 집합을 찾는 경우

@@ -1,3 +1,11 @@
+---
+title: 조건부 타입
+description: 
+created: 2024-11-07
+modified: 2024-11-07
+tags: []
+---
+
 # 조건부 타입
 
 ## 조건부 타입 소개

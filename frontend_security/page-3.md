@@ -1,3 +1,11 @@
+---
+title: HTTPS(HTTP over TLS)
+description: 
+created: 2024-01-01
+modified: 2024-01-23
+tags: []
+---
+
 # HTTPS(HTTP over TLS)
 
 HTTP 프로토콜은 HTML 문서를 전송하기 위해 고안된 통신 프로토콜이므로, 보안이 고려되지 않아 안전하지 않다.

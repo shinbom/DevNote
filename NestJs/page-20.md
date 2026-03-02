@@ -1,3 +1,11 @@
+---
+title: 인증 가드
+description: 
+created: 2024-06-16
+modified: 2024-06-16
+tags: []
+---
+
 # 인증 가드
 
 가드 클래스에는 `canActivate`라는 메서드가 있어야 함.

@@ -1,3 +1,11 @@
+---
+title: 리포지토리
+description: 
+created: 2024-04-10
+modified: 2024-04-10
+tags: []
+---
+
 # 리포지토리
 
 ![](./src/typeorm_repository_api.png)

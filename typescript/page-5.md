@@ -1,3 +1,11 @@
+---
+title: 객체 타입
+description: 
+created: 2024-08-28
+modified: 2024-08-28
+tags: []
+---
+
 # 객체 타입
 
 ## 객체 리터럴 타입

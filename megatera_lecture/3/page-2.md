@@ -1,3 +1,11 @@
+---
+title: Data
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # Data
 
 > MockUp : 실물과 비슷하게 화면을 구성해 보는 것

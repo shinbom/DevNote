@@ -1,3 +1,11 @@
+---
+title: 운영체제
+description: 
+created: 2024-02-01
+modified: 2024-01-25
+tags: []
+---
+
 # 운영체제
 
 ## 캐시 메모리

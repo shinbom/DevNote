@@ -1,3 +1,11 @@
+---
+title: OneToMany, ManyToOne 데코레이터
+description: 
+created: 2024-07-28
+modified: 2024-07-28
+tags: []
+---
+
 # OneToMany, ManyToOne 데코레이터
 
 ## OneToMany

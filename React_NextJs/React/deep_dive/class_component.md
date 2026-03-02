@@ -1,3 +1,11 @@
+---
+title: 클래스형 컴포넌트
+description: 
+created: 2024-11-05
+modified: 2024-11-03
+tags: []
+---
+
 # 클래스형 컴포넌트
 
 ```tsx

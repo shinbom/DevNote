@@ -1,3 +1,11 @@
+---
+title: 의미있는 이름
+description: 
+created: 2024-02-26
+modified: 2024-02-27
+tags: []
+---
+
 # 의미있는 이름
 
 ## 의도를 분명히 하라

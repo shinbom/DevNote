@@ -1,3 +1,11 @@
+---
+title: 스택
+description: 
+created: 2024-09-09
+modified: 2024-09-04
+tags: []
+---
+
 # 스택
 
 ![](./src/stack.png)

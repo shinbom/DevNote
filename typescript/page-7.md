@@ -1,3 +1,11 @@
+---
+title: 열거형 타입(Enumerable Type : Enum Type)
+description: 
+created: 2024-09-09
+modified: 2024-09-05
+tags: []
+---
+
 # 열거형 타입(Enumerable Type : Enum Type)
 
 여러가지 값들에 각각 이름을 부여해 열거해두고 사용하는 타입

@@ -1,3 +1,11 @@
+---
+title: 함수의 return
+description: 
+created: 2024-09-09
+modified: 2024-09-04
+tags: []
+---
+
 # 함수의 return
 
 <aside>

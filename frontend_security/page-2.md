@@ -1,3 +1,11 @@
+---
+title: HTTP
+description: 
+created: 2023-12-31
+modified: 2024-01-23
+tags: []
+---
+
 # HTTP
 
 웹 애플리케이션은 서버가 보낸 HTML, CSS, 이미지 등의 리소스 데이터를 통해 구성된다.

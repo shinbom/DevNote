@@ -1,3 +1,11 @@
+---
+title: 삽입정렬(Insert Sort)
+description: 
+created: 2026-03-02
+modified: 2026-03-02
+tags: []
+---
+
 # 삽입정렬(Insert Sort)
 
 ![insertSort](../src/insertSort.gif)

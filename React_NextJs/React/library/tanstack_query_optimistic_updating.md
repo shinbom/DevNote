@@ -1,3 +1,11 @@
+---
+title: Tanstack Query Optimistic Updating
+description: 
+created: 2024-10-15
+modified: 2024-10-16
+tags: []
+---
+
 # Tanstack Query Optimistic Updating
 
 ## 개념

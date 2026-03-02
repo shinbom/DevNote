@@ -1,3 +1,11 @@
+---
+title: 큐(Queue)
+description: 
+created: 2024-09-09
+modified: 2024-09-04
+tags: []
+---
+
 # 큐(Queue)
 
 ![큐](./src/queue.png)

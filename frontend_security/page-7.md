@@ -1,3 +1,11 @@
+---
+title: CSRF(corss site request forgery)
+description: 
+created: 2024-01-05
+modified: 2024-01-23
+tags: []
+---
+
 # CSRF(corss site request forgery)
 
 공격자가 준비한 함정에 의해 웹 애플리케이션의 기능이 사용자 의도와 상관없이 호출되는 공격

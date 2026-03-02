@@ -1,3 +1,11 @@
+---
+title: 타입계층도
+description: 
+created: 2024-10-11
+modified: 2024-10-10
+tags: []
+---
+
 # 타입계층도
 
 ![](./src/타입계층도.png)

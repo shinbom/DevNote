@@ -1,3 +1,11 @@
+---
+title: 제네릭
+description: 
+created: 2024-11-01
+modified: 2024-10-31
+tags: []
+---
+
 # 제네릭
 
 ```typescript

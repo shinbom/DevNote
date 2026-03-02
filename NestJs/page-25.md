@@ -1,3 +1,11 @@
+---
+title: TypeORM
+description: 
+created: 2024-07-28
+modified: 2024-07-28
+tags: []
+---
+
 # TypeORM
 
 > TypeORM을 하기 전에, Report의 Controller > DTO > Service 프로세스를 한번 더 정리한다.

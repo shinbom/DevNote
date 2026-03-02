@@ -1,3 +1,11 @@
+---
+title: 문제 풀이
+description: 
+created: 2024-10-06
+modified: 2026-03-02
+tags: []
+---
+
 # 문제 풀이
 
 ## 나머지가 1이 되는 수 찾기

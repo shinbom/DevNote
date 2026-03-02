@@ -1,3 +1,11 @@
+---
+title: 타입 별칭과 인덱스 시그니처
+description: 
+created: 2024-09-09
+modified: 2024-09-05
+tags: []
+---
+
 # 타입 별칭과 인덱스 시그니처
 
 ## 타입 별칭 (Type Alias)

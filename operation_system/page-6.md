@@ -1,3 +1,11 @@
+---
+title: 프로세스(Process)
+description: 
+created: 2024-03-06
+modified: 2024-03-06
+tags: []
+---
+
 # 프로세스(Process)
 
 컴퓨터에서 실행되고 있는 프로그램<br/>

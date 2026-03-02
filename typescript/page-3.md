@@ -1,3 +1,11 @@
+---
+title: 타입스크립트의 기본 타입
+description: 
+created: 2024-08-28
+modified: 2024-08-28
+tags: []
+---
+
 # 타입스크립트의 기본 타입
 
 ![타입 트리](./src/type_tree.png)

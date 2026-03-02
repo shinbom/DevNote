@@ -1,3 +1,11 @@
+---
+title: [수 정렬하기 2](http://www.acmicpc.net/problem/2751)
+description: 
+created: 2026-02-28
+modified: 2026-03-02
+tags: []
+---
+
 # [수 정렬하기 2](http://www.acmicpc.net/problem/2751)
 
 ## 문제

@@ -1,3 +1,11 @@
+---
+title: 웹 API 목 객체
+description: 
+created: 2024-07-23
+modified: 2024-07-23
+tags: []
+---
+
 # 웹 API 목 객체
 
 웹 API를 `스텁`으로 대체하여 테스트를 작성한다.<br/>

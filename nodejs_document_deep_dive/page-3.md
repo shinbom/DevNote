@@ -1,3 +1,11 @@
+---
+title: [V8 JavaScript Engine](https://v8.dev/)
+description: 
+created: 2024-09-09
+modified: 2024-09-07
+tags: []
+---
+
 # [V8 JavaScript Engine](https://v8.dev/)
 
 > C++로 작성된 Google의 오픈소스 고성능 JavaScript 및 WebAssembly 엔진

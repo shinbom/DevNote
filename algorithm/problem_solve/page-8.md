@@ -1,3 +1,11 @@
+---
+title: 분할과 정복 패턴(Divide and Conquer)
+description: 
+created: 2024-11-29
+modified: 2024-12-07
+tags: []
+---
+
 # 분할과 정복 패턴(Divide and Conquer)
 
 주로 배열이나 문자열 같은 큰 규모의 데이터셋을 처리함.

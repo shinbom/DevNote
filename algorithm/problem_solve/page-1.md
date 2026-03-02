@@ -1,3 +1,11 @@
+---
+title: 문제 해결법 소개
+description: 
+created: 2024-09-13
+modified: 2024-10-04
+tags: []
+---
+
 # 문제 해결법 소개
 
 ## 알고리즘이란?

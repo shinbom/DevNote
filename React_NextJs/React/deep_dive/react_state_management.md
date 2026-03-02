@@ -1,3 +1,11 @@
+---
+title: 리액트의 상태관리
+description: 
+created: 2024-11-18
+modified: 2024-11-25
+tags: []
+---
+
 # 리액트의 상태관리
 
 - `상태`

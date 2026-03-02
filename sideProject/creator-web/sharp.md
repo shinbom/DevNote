@@ -1,3 +1,11 @@
+---
+title: Next API Route를 이용하여 이미지 최적화(feat.Sharp)
+description: 
+created: 2024-10-12
+modified: 2024-10-16
+tags: []
+---
+
 # Next API Route를 이용하여 이미지 최적화(feat.Sharp)
 
 이미지 업로드 시, 웹 페이지의 최적화를 위해서 이미지의 크기를 조정할 필요가 있었다.

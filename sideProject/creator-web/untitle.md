@@ -1,3 +1,11 @@
+---
+title: 시작
+description: 
+created: 2024-10-12
+modified: 2024-10-16
+tags: []
+---
+
 # 시작
 
 시작하게 된 내용

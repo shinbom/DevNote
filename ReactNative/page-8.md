@@ -1,3 +1,11 @@
+---
+title: ScrollView(스크롤)
+description: 
+created: 2024-06-30
+modified: 2024-06-30
+tags: []
+---
+
 # ScrollView(스크롤)
 
 > 스크롤을 위한 View를 명시적으로 선언해야 한다.

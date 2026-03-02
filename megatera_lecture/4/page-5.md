@@ -1,3 +1,11 @@
+---
+title: usehooks-ts
+description: 
+created: 2024-10-12
+modified: 2024-10-11
+tags: []
+---
+
 # usehooks-ts
 
 > [usehooks-ts](https://usehooks-ts.com/)
