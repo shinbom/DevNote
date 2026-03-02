@@ -1,6 +1,6 @@
 # 선택정렬(Selection Sort)
 
-![selectionSort](./src/selectionSort.gif)
+![selectionSort](../src/selectionSort.gif)
 
 ```javascript
 // 한 셀씩 이동하면서 현재까지 가장 작은 값을 기록(인덱스를 변수에 저장)

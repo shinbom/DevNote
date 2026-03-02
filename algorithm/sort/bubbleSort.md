@@ -1,6 +1,6 @@
 # 버블정렬(Bubble Sort)
 
-![bubbleSort](./src/bubbleSort.gif)
+![bubbleSort](../src/bubbleSort.gif)
 
 ```javascript
 function bubbleSort(list) {

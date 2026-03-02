@@ -1,6 +1,6 @@
 # 삽입정렬(Insert Sort)
 
-![insertSort](./src/insertSort.gif)
+![insertSort](../src/insertSort.gif)
 
 ```javascript
 function insertionSort(arr) {

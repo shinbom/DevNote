@@ -12,30 +12,42 @@
   - 프로세스 & 스레드
     - [프로세스](operation_system/page-6.md)
 
-## Algorithm
-
-- [버블정렬](algorithm/bubbleSort.md)
-- [선택정렬](algorithm/selectionSort.md)
-- [삽입정렬](algorithm/insertSort.md)
-- [삽입정렬이 버블정렬과 선택정렬보다 빠른 이유](/algorithm/sort.md)
-
 ## Data Structure
 
 - [스택](dataStructure/stack.md)
 - [큐](dataStructure/queue.md)
 - [해시 테이블](dataStructure/hashTable.md)
 
-## Algorithm Program Solve
-
-- [문제 해결법 소개](./algorithm/problem_solve/page-1.md)
-- [문제의 이해](./algorithm/problem_solve/page-2.md)
-- 문제 해결 패턴
-  - [빈도수 세기 패턴](./algorithm/problem_solve/page-3.md)
-  - [빈도수 세기 패턴 과제](./algorithm/problem_solve/page-4.md)
-  - [다중 포인터 패턴](./algorithm/problem_solve/page-5.md)
-  - [다중 포인터 패턴 과제](./algorithm/problem_solve/page-6.md)
-  - [기준점 간 이동 배열 패턴(Sliding Window Pattern)](./algorithm/problem_solve/page-7.md)
-  - [분할과 정복 패턴(Divide and Conquer)](./algorithm/problem_solve/page-8.md)
+## Algorithm 
+- 정렬
+  - [버블정렬](algorithm/sort/bubbleSort.md)
+  - [선택정렬](algorithm/sort/selectionSort.md)
+  - [삽입정렬](algorithm/sort/insertSort.md)
+  - [삽입정렬이 버블정렬과 선택정렬보다 빠른 이유](/algorithm/sort/sort.md)
+- 문제 해결법
+  - [문제 해결법 소개](./algorithm/problem_solve/page-1.md)
+  - [문제의 이해](./algorithm/problem_solve/page-2.md)
+  - 문제 해결 패턴
+    - [빈도수 세기 패턴](./algorithm/problem_solve/page-3.md)
+    - [빈도수 세기 패턴 과제](./algorithm/problem_solve/page-4.md)
+    - [다중 포인터 패턴](./algorithm/problem_solve/page-5.md)
+    - [다중 포인터 패턴 과제](./algorithm/problem_solve/page-6.md)
+    - [기준점 간 이동 배열 패턴(Sliding Window Pattern)](./algorithm/problem_solve/page-7.md)
+    - [분할과 정복 패턴(Divide and Conquer)](./algorithm/problem_solve/page-8.md)
+- [코딩 테스트](./algorithm/codingTest/)
+  - 백준
+    - [10810번: 공 넣기](./algorithm/codingTest/boj/10810/main.md)
+    - [10813번: 공 바꾸기](./algorithm/codingTest/boj/10813/main.md)
+    - [11004번: K번째 수](./algorithm/codingTest/boj/11004/main.md)
+    - [11654번: 아스키로 변환](./algorithm/codingTest/boj/11654/main.md)
+    - [15552번: 빠른 A+B](./algorithm/codingTest/boj/15552/main.md)
+    - [2750번: 수 정렬하기](./algorithm/codingTest/boj/2750/main.md)
+    - [2751번: 수 정렬하기 2](./algorithm/codingTest/boj/2751/main.md)
+    - [2752번: 세수 정렬](./algorithm/codingTest/boj/2752/main.md)
+    - [5622번: 다이얼](./algorithm/codingTest/boj/5622/main.md)
+  - 프로그래머스
+    - [프로그래머스 레벨 0](./algorithm/codingTest/programmers_lv0.md)
+    - [프로그래머스 레벨 1](./algorithm/codingTest/programmers_lv1.md)
 
 ## Javascript
 
@@ -152,6 +164,7 @@
 - [좋은 소프트웨어 만들기](js_test/page-1.md)
 - [도구 다루기](js_test/page-2.md)
 
+<!-- 
 ## NestJs
 
 - [프로젝트 셋업](NestJs/page-1.md)
@@ -178,9 +191,7 @@
 - [테스트 코드 리팩토링](NestJs/page-22.md)
 - [로그인 테스트](NestJs/page-23.md)
 
-## NestJs 개인 학습
-
-- [NestJs 회원가입 관련 개인 학습내용](NestJsPractice/page-1.md)
+ -->
 
 ## Node.js
 
