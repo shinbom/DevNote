@@ -1,5 +1,5 @@
 ---
-title: 함수형 컴포넌트(Functional Component)
+title: "함수형 컴포넌트(Functional Component)"
 description: 
 created: 2024-11-05
 modified: 2024-11-03

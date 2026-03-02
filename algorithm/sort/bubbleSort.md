@@ -1,5 +1,5 @@
 ---
-title: 버블정렬(Bubble Sort)
+title: "버블정렬(Bubble Sort)"
 description: 
 created: 2026-03-02
 modified: 2026-03-02

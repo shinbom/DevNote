@@ -1,5 +1,5 @@
 ---
-title: 분할과 정복 패턴(Divide and Conquer)
+title: "분할과 정복 패턴(Divide and Conquer)"
 description: 
 created: 2024-11-29
 modified: 2024-12-07

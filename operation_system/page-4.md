@@ -1,5 +1,5 @@
 ---
-title: 가상 메모리(Virtual Memory)
+title: "가상 메모리(Virtual Memory)"
 description: 
 created: 2024-02-01
 modified: 2024-02-01

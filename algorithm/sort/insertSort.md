@@ -1,5 +1,5 @@
 ---
-title: 삽입정렬(Insert Sort)
+title: "삽입정렬(Insert Sort)"
 description: 
 created: 2026-03-02
 modified: 2026-03-02

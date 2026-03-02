@@ -1,5 +1,5 @@
 ---
-title: XSS(cross site scripting)
+title: "XSS(cross site scripting)"
 description: 
 created: 2024-01-05
 modified: 2024-01-23

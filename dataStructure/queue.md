@@ -1,5 +1,5 @@
 ---
-title: 큐(Queue)
+title: "큐(Queue)"
 description: 
 created: 2024-09-09
 modified: 2024-09-04

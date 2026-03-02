@@ -1,5 +1,5 @@
 ---
-title: [K번째 수](http://www.acmicpc.net/problem/10813)
+title: "[K번째 수](http://www.acmicpc.net/problem/10813)"
 description: 
 created: 2026-03-01
 modified: 2026-03-02

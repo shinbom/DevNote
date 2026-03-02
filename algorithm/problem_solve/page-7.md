@@ -1,5 +1,5 @@
 ---
-title: 기준점 간 이동 배열 패턴(Sliding Window Pattern)
+title: "기준점 간 이동 배열 패턴(Sliding Window Pattern)"
 description: 
 created: 2024-11-29
 modified: 2024-12-07

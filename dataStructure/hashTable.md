@@ -1,5 +1,5 @@
 ---
-title: 해시 테이블(Hash Table)
+title: "해시 테이블(Hash Table)"
 description: 
 created: 2024-09-09
 modified: 2024-09-04

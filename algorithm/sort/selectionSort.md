@@ -1,5 +1,5 @@
 ---
-title: 선택정렬(Selection Sort)
+title: "선택정렬(Selection Sort)"
 description: 
 created: 2026-03-02
 modified: 2026-03-02

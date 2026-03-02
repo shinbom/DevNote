@@ -1,5 +1,5 @@
 ---
-title: 타입 단언(Type Assertion)
+title: "타입 단언(Type Assertion)"
 description: 
 created: 2024-10-12
 modified: 2024-10-11

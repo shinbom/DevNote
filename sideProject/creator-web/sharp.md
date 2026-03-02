@@ -1,5 +1,5 @@
 ---
-title: Next API Route를 이용하여 이미지 최적화(feat.Sharp)
+title: "Next API Route를 이용하여 이미지 최적화(feat.Sharp)"
 description: 
 created: 2024-10-12
 modified: 2024-10-16

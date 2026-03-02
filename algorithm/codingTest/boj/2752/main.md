@@ -1,5 +1,5 @@
 ---
-title: [세수 정렬](http://www.acmicpc.net/problem/2752)
+title: "[세수 정렬](http://www.acmicpc.net/problem/2752)"
 description: 
 created: 2026-02-28
 modified: 2026-03-02
